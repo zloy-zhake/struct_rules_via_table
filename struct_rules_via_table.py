@@ -52,7 +52,7 @@ def table_struct_transform(direction: str, source_morph: str) -> str:
     if source_morph in source_table:
         idx = source_table.index(source_morph)
     else:
-        return "unknown_tags"
+        return "<unknown_tags>"
 
     # возвращаем выходной морфологический разбор, соответствующий индексу
     return target_table[idx]
@@ -63,7 +63,7 @@ def get_first_tag(tags: str) -> str:
     Функция получает список тегов и возвращает первый из них.
     <det><def><sp> -> <det>
     """
-    if tags == "unknown_tags":
+    if tags == "<unknown_tags>":
         return None
 
     idx = tags.index('>')
@@ -98,7 +98,7 @@ def table_translate(direction: str, source_word: str) -> str:
         # возвращаем выходную основу слова, соответствующую индексу
         return target_table[idx]
     else:
-        return "unknown word"
+        return "unknown_word"
 
 
 def compare_tags(tag1: str, tag2: str) -> bool:
@@ -121,6 +121,7 @@ def compare_tags(tag1: str, tag2: str) -> bool:
 # code
 # ==========
 
+
 cur_direction = "eng-kaz"
 if cur_direction == "eng-kaz":
     source_table = eng_tags
@@ -129,13 +130,17 @@ elif cur_direction == "kaz-eng":
     source_table = kaz_tags
     target_table = eng_tags
 
-test = ["^The<det><def><sp>$ ^text<n><sg>$ ^of<pr>$ ^the<det><def><sp>$ \
-    ^Law<n><sg>$ ^will<vaux><inf>$ ^be<vbser><inf>$ ^publish<vblex><pp>$ \
-    ^in<pr>$ ^the<det><def><sp>$ ^press<n><sg>$^.<sent>$"]
-# test = ["^will<vaux><inf>$ ^be<vbser><inf>$ ^publish<vblex><pp>$"]
-for line in test:
+
+# test = ["^you<prn><subj><p2><mf><sp>$ ^know<vblex><pres>$ ^that<det><dem><sg>$ \
+    # ^housing<n><sg>$ ^build<vblex><ger>$ ^have<vbhaver><pres><p3><sg>$ \
+    # ^become<vblex><pp>$ ^the<det><def><sp>$ ^drive<vblex><subs>$ \
+    # ^force<vblex><pres>$ ^of<pr>$ ^kazakhstan<np><top><sg>$ ^'s<gen>$ \
+    # ^economy<n><sg>$^.<sent>$"]
+# for line in test:
+
+co = 0
 # из stdin получеам слова с морфологическими анализами
-# for line in sys.stdin:
+for line in sys.stdin:
     # разбиваем строку по символу '^'
     splitted_input_str = line.split('^')
 
@@ -162,21 +167,20 @@ for line in test:
     tag_borders = []
     # tag_borders[0] = 0
     current_tag = 0
-    found = False
     while current_tag < len(source_tags):
-        for tags_len in range(6, 0, -1):
-            num_of_tag_lengths = len(source_tags) - tags_len + 1
-            for i in range(current_tag, num_of_tag_lengths):
-                if ' '.join(source_tags[i: i + tags_len]) in source_table:
-                    tag_borders.append(current_tag)
-                    current_tag = i + tags_len
-                    found = True
-                    break
-            if found:
-                break
-        if found:
-            break
+        found = False
+        if len(source_tags) - current_tag >= 6:
+            max_len = 6
         else:
+            max_len = len(source_tags) - current_tag
+
+        for tags_len in range(max_len, 0, -1):
+            if ' '.join(source_tags[current_tag: current_tag + tags_len]) in source_table:
+                tag_borders.append(current_tag)
+                current_tag += tags_len
+                found = True
+                break
+        if not found:
             tag_borders.append(current_tag)
             current_tag += 1
 
@@ -197,6 +201,10 @@ for line in test:
         # получаем теги на целевом языке
         tmp_target = table_struct_transform(direction=cur_direction,
                                             source_morph=tmp_source)
+        
+        while len(tmp_words.split()) < len(tmp_target.split()):
+            tmp_words += " extra_word"
+
         # объединяем сгруппированное в структуру
         tmp_struct = w_s_t(words=tmp_words, source_tags=tmp_source,
                            target_tags=tmp_target)
@@ -216,18 +224,20 @@ for line in test:
 
     for i in range(len(w_s_t_list)):
         tmp_words_list = w_s_t_list[i].words.split()
-        tmp_source_list = w_s_t_list[i].source_tags.split()
         tmp_target_list = w_s_t_list[i].target_tags.split()
-        tmp_new_words_list = []
+        if len(tmp_words_list) != len(tmp_target_list):
+            tmp_source_list = w_s_t_list[i].source_tags.split()
+            tmp_new_words_list = []
 
-        for tar_tags in tmp_target_list:
-            for sour_tags in tmp_source_list:
-                if compare_tags(get_first_tag(tar_tags),
-                                get_first_tag(sour_tags)):
-                    idx = tmp_source_list.index(sour_tags)
-                    tmp_new_words_list.append(tmp_words_list[idx])
+            for tar_tags in tmp_target_list:
+                for sour_tags in tmp_source_list:
+                    if compare_tags(get_first_tag(tar_tags),
+                                    get_first_tag(sour_tags)):
+                        idx = tmp_source_list.index(sour_tags)
+                        tmp_new_words_list.append(tmp_words_list[idx])
+                        break
 
-        w_s_t_list[i] = w_s_t_list[i]._replace(words=' '.join(tmp_new_words_list))
+            w_s_t_list[i] = w_s_t_list[i]._replace(words=' '.join(tmp_new_words_list))
 
     # переводим слова
     for i in range(len(w_s_t_list)):
@@ -242,8 +252,8 @@ for line in test:
     # готовим результат для вывода
     output = ""
     for item in w_s_t_list:
-        tmp_words_list = w_s_t_list[i].words.split()
-        tmp_target_list = w_s_t_list[i].target_tags.split()
+        tmp_words_list = item.words.split()
+        tmp_target_list = item.target_tags.split()
         for i in range(len(tmp_words_list)):
             output += tmp_words_list[i]
             output += tmp_target_list[i]
@@ -252,4 +262,5 @@ for line in test:
     output = output.rstrip()
     output += '\n'
 
-    sys.stdout.write(output)
+    co += 1
+    sys.stdout.write(str(co) + ": " + output)
