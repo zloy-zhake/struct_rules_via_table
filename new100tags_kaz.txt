@@ -1,0 +1,158 @@
+^заң<n><attr>$ ^мәтін<n><px3sp><nom>$ ^баспасөз<n><loc>$ ^жарияла<v><tv><pass><aor><p3><sg>$^.<sent>$
+^біз<prn><pers><p1><pl><nom>$ ^бұл<det><dem>$ ^оқиға<n><acc>$ ^ерекше<adj>$ ^қуаныш<n><ins>$ ^қарсы<adj><advl>$ ^ал<v><iv><ifi><p1><pl>$^.<sent>$
+^компания<n><nom>$ ^әлемдік<adj>$ ^инвестор<n><pl><nom>$ ^тарап<n><px3sp><abl>$ ^тартымды<adj>$ ^баға<n><dat>$ ^ие бол<v><iv><ger><loc>$^.<sent>$
+^сыйлық<n><nom>$ ^ислам<n><nom>$ ^қаржы<n><nom>$ ^нарық<n><px3sp><acc>$ ^өңірлік<adj>$ ^және<cnjcoo>$ ^халықаралық<adj>$ ^деңгей<n><loc>$ ^дамыт<v><tv><ger><nom>$ ^мен<prn><pers><p1><sg><nom>$ ^ілгерілет<v><tv><ger><loc>$ ^жет<v><iv><gpr_past>$ ^зор<adj>$ ^табыста<v><iv><gpr_fut>$ ^үшін<post>$ ^беріл<v><tv><ifi><p3><sg>$^.<sent>$
+^қытай<n><nom>$ ^халық<n><px3sp><nom>$ ^сіз<prn><pers><p2><sg><frm><acc>$ ^жақсы<adv>$ ^біл<v><tv><aor><p3><sg>$ ^және<cnjcoo>$ ^қатты<adv>$ ^құрметте<v><tv><aor><p3><sg>$^.<sent>$
+^біз<prn><pers><p1><pl><nom>$ ^ел<n><pl><px1pl><nom>$ ^ара<n><px3sp><loc><attr>$ ^тығыз<adj>$ ^байланыс<n><pl><acc>$ ^қолда<v><tv><aor><p1><pl>$^.<sent>$
+^біз<prn><pers><p1><pl><acc>$ ^жеке<adj>$ ^достық<n><px1pl><nom>$ ^мен<cnjcoo>$ ^тығыз<adj>$ ^іскерлік<adj>$ ^қатынас<n><pl><nom>$ ^байланыстыр<v><tv><aor><p3><sg>$^.<sent>$
+^бүгін<n><loc>$ ^ел<n><px1pl><loc>$ ^нақты<adj><advl>$ ^жұмыс істе<v><tv><gpr_impf>$ ^2105<num>$ ^БАҚ<n><nom>$ ^тіркел<v><iv><ifi><p3><sg>$^.<sent>$
+^ол<prn><dem><pl><gen>$ ^қат<v><iv><ger_fut><px3sp><loc>$ ^1360<num>$ ^газет<n><nom>+е<cop><aor><p3><sg>$^,<cm>$ ^511<num>$ ^журнал<n><nom>+е<cop><aor><p3><sg>$^,<cm>$ ^49<num>$ ^*радиостанса$^,<cm>$ ^71<num>$ ^телекомпания<n><nom>$ ^бар<adj>$^.<sent>$
+^бұл<det><dem>$ ^ғылыми<adj>$ ^мекеме<n><nom>$ ^жаңа<adj>$ ^энергия<n><nom>$ ^көз<n><pl><px3sp><acc>$ ^зертте<v><tv><ger><ins>$ ^айналыс<v><iv><pih><p3><sg>$ ^бол<v><iv><aor><p3><sg>$^.<sent>$
+^шет<n><nom>$ ^ел<n><pl><gen>$ ^тәжірибе<n><px3sp><acc>$ ^жинақта<v><tv><gna_perf>$^,<cm>$ ^ол<prn><dem><pl><dat>$ ^зертханалық<n><nom>$ ^жағдай<n><loc>$ ^талда<v><tv><ger><nom>$ ^жүргіз<v><tv><ger><nom>$ ^мүмкіндік<n><px3sp><acc>$ ^қарастыр<v><tv><gpr_past>$ ^жөн<n><nom>+е<cop><aor><p3><sg>$^.<sent>$
+^бүгін<n><gen>$ ^өз<prn><ref><px3sp><loc>$ ^мен<prn><pers><p1><sg><dat>$ ^сан<n><nom>$ ^алуан<adj>$ ^энергия<n><nom>$ ^түр<n><pl><px3sp><gen>$ ^әзірлеме<n><pl><px3sp><nom>$ ^жоба<n><pl><px3sp><acc>$ ^жолда<v><tv><ger><loc>$^.<sent>$
+^ол<prn><dem><pl><acc>$ ^іске асыр<v><tv><ger><nom>$ ^мәселе<n><px3sp><acc>$ ^қарастыр<v><tv><gpr_past>$ ^жөн<n><nom>+е<cop><aor><p3><sg>$^,<cm>$ ^–<guio>$ ^де<v><tv><ifi><p3><sg>$ ^мемлекет<n><nom>$ ^басшы<n><px3sp><nom>+е<cop><aor><p3><sg>$^.<sent>$
+^көктем<n><nom>$ ^тұрғын<adj>$ ^үй<n><nom>$ ^кешен<n><px3sp><loc>$ ^президент<n><nom>$ ^тұрғын<n><pl><acc>$ ^жаңа<adj>$ ^пәтер<n><nom>$ ^алу<n><px3sp><ins>$ ^құттықта<v><tv><ifi><p3><sg>$^.<sent>$
+^сіздер<prn><pers><p2><pl><frm><nom>$ ^бүгін<adv><attr>$ ^күн<n><px3sp><nom>$ ^тұрғын<adj>$ ^үй<n><nom>$ ^құрылыс<n><px3sp><gen>$^:<sent>$ ^Астана<np><top><nom>$ ^мен<prn><pers><p1><sg><nom>$ ^Алматы<np><top><loc>+ғана<postadv>$ ^е<cop><neg><aor><p3><sg>$ ^бүкіл<det><qnt>$ ^Қазақстан<np><top><nom>$ ^экономика<n><px3sp><gen>$ ^локомотив<n><px3sp><dat><err_orth>$ ^айнал<v><tv><ger_past><px3sp><acc>$ ^жақсы<adv>$ ^біл<v><tv><aor><p2><frm><pl>$^.<sent>$
+^жыл<n><nom>$ ^өт<v><tv><gpr_past>$ ^сайын<post>$ ^тұрғын<adj>$ ^үй<n><nom>$ ^құрылыс<n><px3sp><gen>$ ^көлем<n><px3sp><nom>$ ^ұлғай<v><iv><prc_perf>$ ^отыр<vaux><pres><p3><sg>$^.<sent>$
+^тиісті<adj>$ ^мемлекеттік<adj>$ ^бағдарлама<n><nom>$ ^асыр<v><tv><prc_impf>$ ^орында<v><tv><pass><prc_perf>$ ^кел<vaux><aor><p3><sg>$^.<sent>$
+^бұл<prn><dem><nom>$ ^Өзбекстан<np><top><nom>$ ^үшін<post>$ ^*қандайлық$ ^қиын<adj>$ ^е<cop><ger_past><px3sp><acc>$^,<cm>$ ^ол<prn><dem><dat>$ ^қан<n><sim>$ ^проблема<n><pl><acc>$ ^шеш<v><tv><ger><dat>$ ^тура кел<v><iv><ger_past><px3sp><acc>$ ^көз<n><nom>$ ^алд<n><px1sg><dat>$ ^келтір<v><tv><prc_impf>$ ^ал<vaux><aor><p1><sg>$^.<sent>$
+^біз<prn><pers><p1><pl><nom>$ ^көршілес<adj>$ ^мемлекет<n><pl><nom>$ ^–<guio>$ ^Қазақстан<np><top><nom>$^,<cm>$ ^Ресей<np><top><nom>$ ^және<cnjcoo>$ ^Өзбекстан<np><top><nom>$ ^бірлес<v><iv><gna_perf>$ ^көмектес<v><tv><gna_perf>$^,<cm>$ ^қажетті<adj><advl>$ ^мәселе<n><pl><acc>$ ^*шешудеміз$^.<sent>$
+^Қырғызстан<np><top><nom>$ ^–<guio>$ ^кедей<adj>$ ^ел<n><nom>+е<cop><aor><p3><sg>$^,<cm>$ ^ойдағыдай<adj>$ ^мемлекет<n><nom>$ ^бол<v><iv><prc_impf>$ ^ал<vaux><neg><aor><p3><sg>$ ^де<v><tv><gpr_impf>$ ^пікір<n><nom>$ ^бар<adj>$^.<sent>$
+^мен<prn><pers><p1><sg><nom>$ ^ол<prn><dem><advl>$ ^де<v><tv><gna_perf>$ ^сана<v><tv><neg><aor><p1><sg>$^.<sent>$
+^Қырғызстан<np><top><gen>$ ^жер қойнау<n><px3sp><nom>$ ^алтын<n><dat>$^,<cm>$ ^темір<n><dat>$^,<cm>$ ^күміс<n><dat>$^,<cm>$ ^мыс<n><dat>$ ^және<cnjcoo>$ ^басқа<adj><advl>$ ^ресурс<n><pl><dat>$ ^бай<n><nom>+е<cop><aor><p3><sg>$^.<sent>$
+^туризм<n><nom>$ ^сала<n><px3sp><gen>$ ^мүмкіндік<n><pl><px3sp><nom>$ ^орасан<adv>$^.<sent>$
+^бұл<prn><dem><gen>$ ^бәрі<prn><qnt><px3sp><acc>$ ^көтер<v><tv><ger><nom>$ ^керек<adj>+е<cop><aor><p3><sg>$^.<sent>$
+^басқа<adj><advl>$ ^мемлекет<n><pl><gen>$ ^бір<num><subst><loc>$^х<guio>$^бір<num>$ ^гуманитарлық<adj>$ ^көмек<n><px3sp><nom>$ ^ешқашан<adv>$ ^елді<adj><advl>$ ^көтер<v><iv><neg><past><p3><sg>$^.<sent>$
+^бір<num><ord>$ ^мәселе<n><nom>$^,<cm>$ ^мемлекет<n><nom>$ ^экономика<n><px3sp><acc>$ ^көтер<v><tv><gna_perf>$^,<cm>$ ^адам<n><pl><dat>$ ^жұмыс<n><nom>$ ^бер<v><tv><gna_perf>$^,<cm>$ ^өз<det><ref>$ ^халық<n><px3sp><acc>$ ^*тойындыра$ ^ала<adj>+ма<qst>$^.<sent>$
+^міне<ij>$^,<cm>$ ^сол<prn><dem><loc>+ғана<postadv>$ ^ол<prn><pers><p3><sg><nom>$ ^тұрақты<n><nom>$ ^бол<v><iv><aor><p3><sg>$^.<sent>$
+^сондықтан<cnjadv>+да<cnjcoo>$ ^Қырғызстан<np><top><gen>$ ^экономикалық<adj>$ ^өрле<v><iv><ger><nom>$ ^бағдарла<v><tv><neg><opt><p3><sg>$ ^жаса<v><tv><ger><nom>$ ^қажет<adj>$ ^және<cnjcoo>$ ^Қазақстан<np><top><nom>$ ^ол<prn><dem><acc>$ ^жаса<v><tv><ger><dat>$ ^көмек көрсет<v><tv><ger><dat>$ ^әзір<n><nom>+е<cop><aor><p3><sg>$^.<sent>$
+^бүгін<adv>$ ^әлем<n><nom>$ ^халықаралық<adj>$ ^ядролық<adj>$ ^сынақ<n><pl><dat>$ ^қарсы<adj>$ ^іс-қимыл<n><nom>$ ^күн<n><px3sp><acc>$ ^үш<num><ord>$ ^рет<n><nom>$ ^атап өт<v><tv><ger><loc>$^.<sent>$
+^мен<prn><pers><p1><sg><nom>$ ^бас<adj><subst>+лы<post>$ ^үш<num>$ ^жайт<n><acc>$ ^бөл<v><tv><gna_perf>$ ^көрсет<v><tv><prc_vol><p1><sg>$ ^кел<vaux><aor><p3><sg>$^.<sent>$
+^Қазақстан<np><top><nom>$ ^кеңестік<adj><advl>$ ^әскери<adj>$ ^арсенал<n><abl>$ ^мұра<n><nom>$ ^болып қал<v><iv><gpr_past>$ ^әлем<n><loc><attr>$ ^4<num><ord>$ ^ядролық<adj>$ ^әлеует<n><abl>$ ^өз<det><ref>$ ^еркімен<adj>$ ^бас тарт<v><tv><ifi><p3><sg>$^.<sent>$
+^бұл<det><dem>$ ^жер<n><nom>$ ^шар<n><px3sp><gen>$ ^кез<n><nom>$ ^кел<v><iv><gpr_past>$ ^нүкте<n><px3sp><dat>$ ^жет<v><iv><gpr_impf>$ ^бір<num>$ ^мың<num>$ ^екі жүз<num>$ ^ядролық<adj>$ ^оқтұмсық<n><px3sp><nom>$ ^бар<adj>$ ^110<num><subst><abl>$ ^астам<adj>$ ^баллистикалық<adj>$ ^ракета<n><acc>$ ^құра<v><tv><pih><p3><sg>$^.<sent>$
+^сол<adj>$ ^кез<n><loc>+да<cnjcoo>$ ^айтылған<adj><subst><nom>+е<cop><aor><p3><sg>$^,<cm>$ ^қазір<adv>+да<cnjcoo>$ ^Қазақстан<np><top><gen>$ ^бұл<det><dem>$ ^ерлік<n><dat>$ ^пара<n><nom>$^х<guio>$^пар<n><nom>$ ^қадам<n><px3sp><gen>$ ^маңыз<n><px3sp><acc>$ ^төмендет<v><iv><prc_fplan>$ ^бол<v><iv><gpr_past>$ ^пікір<n><pl><nom>$ ^естіліп қал<v><tv><aor><p3><sg>$^.<sent>$
+^Алай<np><top><loc>$ ^біз<prn><pers><p1><pl><nom>$ ^саяси<adj>$ ^ерік<n><nom>$^х<guio>$^жігер<n><px1pl><acc>$ ^басқа<adj><advl>$ ^мәселе<n><loc>$ ^таныт<v><tv><ifi><p1><pl>$ ^–<guio>$ ^ядролық<adj>$ ^клуб<n><dat>$ ^мүше<n><nom>$ ^бол<v><iv><ger><abl>$ ^қағидат<n><acc>$ ^түр<n><loc>$ ^және<cnjcoo>$ ^үзілді-кесілді<adv>$ ^бас тарт<v><tv><ifi><p1><pl>$^.<sent>$
+^АҚШ<np><top><ins>$ ^және<cnjcoo>$ ^Ресей<np><top><ins>$ ^бірлес<v><iv><prc_impf>$ ^отыр<vaux><gna_perf>$ ^оқтұмсық<n><pl><nom>$ ^мен<prn><pers><p1><sg><nom>$ ^*жарылғыштар$ ^залалсыздандыр<v><tv><pass><ifi><p3><sg>$^.<sent>$
+^1991<num>$ ^жыл<n><gen>$ ^29<num>$ ^тамыз<n><px3sp><dat>$ ^дейін<post>$ ^ядролық<adj>$ ^қауіпсіздік<n><nom>$ ^сала<n><px3sp><loc>$ ^негіз<n><px3sp><abl>$ ^шекте<v><tv><ger><nom>$ ^шара<n><pl><px3sp><nom>$ ^қолдан<v><tv><pass><prc_perf>$ ^кел<vaux><ifi><p3><sg>$^.<sent>$
+^БҰҰ<np><org><gen>$ ^шешім<n><px3sp><nom>$ ^бойынша<post>$ ^осы<prn><dem><abl>$ ^16<num>$ ^жыл<n><nom>$ ^бұрын<post>$ ^ядролық<adj>$ ^сынақ<n><pl><acc>$ ^тый<v><tv><ger><nom>$ ^туралы<post>$ ^келісім<adj><subst><dat>$ ^қол қой<v><tv><ger><dat>$ ^жол<adj><advl>$ ^ашыл<v><tv><ifi><p3><sg>$^.<sent>$
+^ол<prn><dem><dat>$ ^Қазақстан<np><top><nom>$ ^ең<adv>$ ^алғаш<adv><subst><pl><gen>$ ^бір<num><subst><px3sp><nom>$ ^бол<v><iv><gna_perf>$ ^қол қой<v><tv><ifi><p3><sg>$^.<sent>$
+^келісім<adj><subst><dat>$ ^қазір<n><gen>$ ^өз<prn><ref><px3sp><loc>$ ^183<num>$ ^мемлекет<n><nom>$ ^қос<v><tv><pass><gna_perf>$^,<cm>$ ^157<num><subst><px3sp><nom>$ ^ол<prn><dem><acc>$ ^ратификацияла<v><tv><ifi><p3><sg>$^.<sent>$
+^ядролық<adj>$ ^клуб<n><gen>$ ^барлық<adj>$ ^ел<n><pl><px3sp><nom>$ ^сынақ<n><pl><dat>$ ^жарияла<v><tv><pass><gpr_past>$ ^мораторий<n><acc><err_orth>$ ^сақта<v><tv><prc_perf>$ ^отыр<vaux><pres><p3><sg>$^.<sent>$
+^ханым<n><pl><nom>$ ^мен<cnjcoo>$ ^мырза<n><pl><nom>+е<cop><aor><p3><sg>$^!<sent>$
+^бір<num><ord><subst><abl>$^,<cm>$ ^әзірше<adv>$ ^ядролық<adj>$ ^қар<v><tv><ger><acc>$ ^тарат<v><tv><neg><ger><nom>$ ^*режімінің$ ^жан-жақтылық<n><px3sp><dat>$ ^қол<adj>$ ^жеткіз<v><tv><pass><neg><ifi><p3><sg>$^.<sent>$
+^жаңа<adj>$ ^ядролық<adj>$ ^және<cnjcoo>$ ^кейбір<adj>$ ^табалдырық<n><loc><attr>$ ^ел<n><pl><nom>$ ^тиісті<adj>$ ^келіс<n><px1sg><abl>$ ^шет<n><nom>$ ^қал<v><iv><prc_perf>$ ^отыр<vaux><pres><p3><sg>$^.<sent>$
+^екі<num><ord><subst><abl>$^,<cm>$ ^екі<num>$ ^жыл<n><nom>$ ^бұрын<post>$ ^АҚШ<np><top><nom>$ ^мен<cnjcoo>$ ^Ресей<np><top><nom>$ ^ара<n><px3sp><loc>$ ^стратегиялық<adj>$ ^шабуыл<n><nom>$ ^қар<v><tv><ger><pl><px3sp><acc>$ ^қысқарт<v><tv><ger><nom>$ ^үдеріс<n><px3sp><acc>$ ^жандандыр<v><tv><gpr_past>$ ^Париж<np><top><nom>$ ^келісім<n><px3sp><dat>$ ^қол қой<v><tv><pass><ifi><p3><sg>$^.<sent>$
+^алайда<cnjadv>$^,<cm>$ ^бұл<det><dem>$ ^қадам<n><nom>$ ^ресми<adj>$ ^ядролық<adj>$ ^клуб<n><gen>$ ^қал<v><iv><gpr_past>$ ^ел<n><pl><px3sp><dat>$ ^үлгі<n><nom>$ ^бол<v><iv><neg><ifi><p3><sg>$^.<sent>$
+^үш<num><ord><subst><abl>$^,<cm>$ ^ядролық<adj>$ ^сынақ<n><pl><dat>$ ^жап<v><tv><neg><gna_perf>$ ^*тиым$ ^сал<v><tv><ger><nom>$ ^туралы<post>$ ^келісім<adj>$ ^күш<n><px3sp><dat>$ ^ен<v><iv><prc_impf>$ ^ал<vaux><neg><ger><loc>$^.<sent>$
+^бұл<prn><dem><dat>$ ^табалдырық<n><nom>$ ^топ<n><px3sp><dat>$ ^жат<v><iv><pih><p3><sg>$ ^бірнеше<det><qnt>$ ^ел<n><gen>+ғана<postadv>$ ^қол<n><px3sp><nom>$ ^жет<v><iv><neg><prc_perf>$ ^тұр<vaux><pres><p3><sg>$^.<sent>$
+^ядролық<adj>$ ^қауіпсіздік<n><gen>$ ^жаһандық<adj>$ ^жүйе<n><px3sp><acc>$ ^қалыптастыр<v><tv><ger><nom>$ ^үдеріс<n><px3sp><gen>$ ^*бәсеңсуіне$ ^себеп бол<v><iv><prc_perf>$ ^отыр<vaux><gpr_past>$ ^мәселе<n><pl><gen>$ ^бірқатар<prn><qnt><px3sp><nom>$ ^осы<prn><dem><sim><nom>+е<cop><aor><p3><sg>$^.<sent>$
+^бірақ<cnjcoo>$ ^бұл<prn><dem><pl><gen>$ ^бәрі<prn><qnt><px3sp><nom>$ ^ең<adv>$ ^әуелі<adv>$ ^себеп<n><pl><nom>$ ^е<cop><neg><aor><p3><sg>$^,<cm>$ ^салдар<n><pl><nom>+е<cop><aor><p3><pl>$^.<sent>$
+^бұл<det><dem>$ ^проблема<n><pl><gen>$ ^көз<n><pl><px3sp><nom>$ ^терең<adj><subst><loc>$ ^жатыр<adj>+е<cop><aor><p3><sg>$^.<sent>$
+^жаһандық<adj>$ ^ядролық<adj>$ ^қауіпсіздік<n><gen>$ ^ағымдағы<adj>$ ^ахуал<n><px3sp><dat>$ ^көп<adj>$ ^рет<n><loc>$ ^өт<v><tv><gpr_past>$ ^*ға$­^сыр<n><pl><abl>$ ^мұра<n><nom>$ ^болып қал<v><iv><gpr_past>$ ^әлемдік<adj>$ ^саясат<n><loc><attr>$ ^кедергі<n><pl><nom>$ ^қатты<adj>$ ^әсер ет<v><tv><ger><loc>$^.<sent>$
+^көп<adj>$ ^тарап<n><acc>$ ^бейбітшілік<n><acc>$ ^қалыптастыр<v><tv><ger><gen>$ ^шынайы<adj>$ ^бағыт<n><px3sp><loc><attr>$ ^берекесіздік<n><nom>$ ^жағдай<n><acc>$ ^қиындат<v><tv><prc_perf>$ ^отыр<vaux><pres><p3><sg>$^.<sent>$
+^әскери<adj>$ ^атом<n><gen>$ ^есірік<n><px3sp><nom>$ ^кейбір<adj>$ ^саясаткер<n><pl><nom>$ ^мен<prn><pers><p1><sg><nom>$ ^әскери<adj><subst><pl><acc>$ ^желіктір<v><tv><ger><px3sp><acc>$ ^әлі де<adv>$ ^қой<v><tv><fut><p3><sg>$ ^е<cop><neg><aor><p3><sg>$^.<sent>$
+^болашақ<n><nom>$ ^өмір<n><loc>$ ^ядролық<adj>$ ^*зонт$ ^*экзотикасына$ ^орын<n><nom>$ ^болма<v><iv><ger><px3sp><nom>$ ^тиіс<adj>$ ^де<v><tv><gpr_past>$ ^сенім<n><loc>+е<cop><aor><p1><sg>$^.<sent>$
+^сол<prn><dem><ins>$ ^бір<num><subst><dat>$^,<cm>$ ^*ХХІ$ ^ғасыр<n><acc>$ ^ядролық<adj>$ ^энергетика<n>+сыз<post>$ ^елестет<v><tv><ger><nom>$ ^да<cnjcoo>$ ^мүмкін емес<adj>+е<cop><aor><p3><sg>$^.<sent>$
+^Маман<np><ant><m><pl><gen>$ ^пікір<n><px3sp><nom>$ ^бойынша<post>$^,<cm>$ ^2035<num>$ ^жыл<n><dat>$ ^қарай<post>$ ^әлем<n><nom>$ ^экономика<n><px3sp><gen>$ ^энергия<n><acc>$ ^қажет<adj>$ ^ет<v><tv><ger><px3sp><nom>$ ^екі есе<adj><subst><dat>$ ^ұлғай<v><iv><aor><p3><sg>$^.<sent>$
+^қазір<adv><attr>$ ^таң<n><loc>$ ^планета<n><loc>$ ^2<num>$ ^миллиард<n><dat>$ ^жуық<adj>$ ^ада<n><px1sg><nom>$ ^электр<adj><advl>$ ^қу<v><tv><gpr_impf>$ ^мүлде<adv>$ ^пайдалана алма<v><tv><aor><p3><sg>$^.<sent>$
+^ядро<n>+сыз<post>$ ^әлем<n><nom>$ ^бұл<prn><dem><nom>$ ^–<guio>$ ^ядролық<adj>$ ^энергия<n><acc>$ ^әскери<adj>$ ^мақсат<n><loc>$ ^пайдалан<v><tv><ger><dat>$ ^толық<adj>$ ^тыйым сал<v><tv><ger><nom>$ ^де<v><tv><gpr_past>$ ^сөз<n><nom>+е<cop><aor><p3><sg>$^.<sent>$
+^мен<prn><pers><p1><sg><gen>$ ^жалпы<n><dat>$ ^ортақ<adj>$ ^ядро<n>+сыз<post>$ ^әлем<n><nom>$ ^декларация<n><px3sp><acc>$ ^талда<v><tv><gna_perf>$^,<cm>$ ^қабылда<v><tv><ger><nom>$ ^жөн<n><px3sp><loc><attr>$ ^ұсыныс<n><px1sg><gen>$ ^мән<n><px3sp><nom>+да<cnjcoo>$ ^осы<prn><dem><loc>+е<cop><aor><p3><sg>$^.<sent>$
+^мен<prn><pers><p1><sg><nom>$ ^осы<det><dem>$ ^идея<n><gen>$ ^тұрақ<n><acc>$ ^жақтаушы<n><px3sp><nom>$ ^бол<v><iv><ifi><p1><sg>$ ^және<cnjcoo>$ ^сол<prn><dem><advl>$ ^болып қал<v><iv><prc_impf>$ ^бер<vaux><aor><p1><sg>$^.<sent>$
+^құрметті<adj><advl>$ ^конференция<n><dat>$ ^қатысушы<n><pl><nom>$^!<sent>$
+^бір<num><ord>$ ^кезек<n><loc>$ ^ядролық<adj>$ ^сынақ<n><pl><dat>$ ^тыйым сал<v><tv><gpr_impf>$ ^келісім<adj>$^х<guio>$^шарт<n><gen>$ ^күш<n><px3sp><dat>$ ^ен<v><iv><ger><px3sp><dat>$ ^қол<adj>$ ^жеткіз<v><tv><ger><nom>$ ^маңызды<adj>+е<cop><aor><p3><sg>$^.<sent>$
+^ядро<n>+сыз<post>$ ^әлем<n><dat>$ ^қарай<post>$ ^қадам<n><nom>$ ^бас<v><tv><ger><nom>$ ^–<guio>$ ^ол<prn><pers><p3><sg><nom>$ ^сындарлы<adj>$ ^көп<adj>$ ^*тараптылыққа$ ^жол<n><nom>+е<cop><aor><p3><sg>$^.<sent>$
+^біз<prn><pers><p1><pl><nom>$ ^ол<prn><pers><p3><sg><nom>$ ^көмек<n><nom>$ ^үшін<post>$ ^терең<adj>$ ^ризашылық<n><px1pl><acc>$ ^білдір<v><tv><aor><p1><pl>$^.<sent>$
+^мен<prn><pers><p1><sg><nom>$ ^Қазақстан<np><top><gen>$ ^антиядролық<adj>$ ^саясат<n><px3sp><nom>$ ^мен<cnjcoo>$ ^бастама<n><pl><px3sp><dat>$ ^қолда<v><tv><ger><nom>$ ^көрсет<v><tv><ger_past><px3sp><nom>$ ^және<cnjcoo>$ ^жоғары<adv>$ ^бақ<v><tv><prc_impf>$ ^бер<vaux><ger_past><px3sp><nom>$ ^үшін<post>$ ^ол<prn><dem><dat>$ ^алғыс айт<v><tv><aor><p1><sg>$^.<sent>$
+^бүгін<n><loc>$ ^адамзат<n><gen>$ ^ядролық<adj>$ ^коллапс<n><nom>$ ^қатер<n><px3sp><loc>$ ^шексіз<adj><subst><nom>$ ^үрей<n><nom>$ ^кеш<v><tv><ger><abl>$ ^құтыл<v><iv><gpr_ppot><nom>$ ^*ғаламат$ ^мүмкіндік<n><px3sp><nom>$ ^бар<adj>+е<cop><aor><p3><sg>$^.<sent>$
+^ол<prn><pers><p3><sg><nom>$ ^үшін<post>$ ^бүкіл<det><qnt>$ ^ұлт<n><pl><gen>$^,<cm>$ ^бүкіл<det><qnt>$ ^ізгі<adj>$ ^ниет<n><acc>$ ^адам<n><pl><gen>$ ^күш<n><nom>$^х<guio>$^жігер<n><pl><px3sp><acc>$ ^бұрын-соңды<adv>$ ^бол<v><iv><neg><gpr_past>$ ^жағдай<n><loc>$ ^біріктір<v><tv><ger><gen>$ ^маңыз<n><px3sp><nom>$ ^зор<n><nom>+е<cop><aor><p3><sg>$^!<sent>$
+^бүгін<adv>$ ^осы<det><dem>$ ^зал<n><loc>$ ^планета<n><px1pl><gen>$ ^барлық<adj>$ ^құрлық<n><pl><px3sp><gen>$ ^ел<n><pl><px3sp><abl>$ ^*парламентарийлер$ ^қатыс<v><iv><prc_perf>$ ^отыр<vaux><pres><p3><sg>$^.<sent>$
+^сондықтан<cnjadv>$ ^қазір<adv><attr>$ ^форум<n><acc>$ ^жаһандық<adj>$ ^антиядролық<adj>$ ^парламенттік<adj>$ ^ассамблея<n><gen>$ ^үлгі<n><px3sp><nom>$ ^деп ата<v><tv><ger><dat>$ ^бол<v><iv><aor><p3><sg>$^.<sent>$
+^және<cnjcoo>$ ^мен<prn><pers><p1><sg><nom>$ ^сіздер<prn><pers><p2><pl><frm><dat>$ ^осы<prn><dem><sim><nom>$ ^әлемдік<adj>$ ^қоғамдық<adj>$ ^құрылым<n><nom>$ ^тағайында<v><tv><ger><nom>$ ^мүмкіндік<n><px3sp><acc>$ ^қарастыр<v><tv><ger><acc>$ ^ұсын<v><tv><aor><p1><sg>$^.<sent>$
+^осынау<det><dem>$ ^әлемдік<adj>$ ^тәртіп<n><gen>$ ^маңызды<adj><subst><nom>$ ^алғышарт<n><px3sp><nom>$ ^ядро<n>+сыз<post>$ ^әлем<n><nom>$ ^бол<v><iv><gpr_impf><subst><px3sp><dat>$ ^мен<prn><pers><p1><sg><gen>$ ^еш<adv>$ ^күмән<n><px1sg><nom>$ ^жоқ<adj><subst><nom>+е<cop><aor><p3><sg>$^.<sent>$
+^ол<prn><pers><p3><sg><loc>$ ^президент<n><nom>$ ^қағаз<adj>$ ^мен<cnjcoo>$ ^*гофрокартон$ ^шығар<v><tv><gpr_impf>$ ^*цехтарды$ ^арала<v><tv><prc_perf>$ ^көр<vaux><ifi><p3><sg>$^.<sent>$
+^дағдарыс<n><nom>$ ^біз<prn><pers><p1><pl><dat>$ ^сырттан<adv>$ ^кел<v><iv><ifi><p3><sg>$^.<sent>$
+^ол<prn><pers><p3><sg><gen>$ ^көз<n><px3sp><nom>$ ^ел<n><px1pl><gen>$ ^іш<n><px3sp><loc>$ ^е<cop><neg><aor><p3><sg>$^,<cm>$ ^әлемдік<adj>$ ^экономика<n><gen>$ ^*теңгерімсіздігінің$ ^іш<n><px3sp><loc>$ ^бүгулі<adj>$ ^жатыр<adj>+е<cop><aor><p3><sg>$^.<sent>$
+^дағдарыс<n><abl>$ ^қаш<v><iv><gna_perf>$ ^*кұтылу$ ^әрі<cnjcoo>$ ^ол<prn><dem><acc>$ ^алдын ала<adj>$ ^біл<v><tv><ger><nom>$ ^мүмкін<adj>$ ^бол<v><iv><neg><ifi><p3><sg>$^,<cm>$ ^х<guio>$ ^деп ата<v><tv><gna_perf>$ ^көрсет<v><tv><ifi><p3><sg>$ ^мемлекет<n><nom>$ ^басшы<n><px3sp><nom>+е<cop><aor><p3><sg>$^.<sent>$
+^әлемдік<adj>$ ^экономика<n><loc><attr>$ ^ахуал<n><nom>$ ^қи<n><px3sp><sim>$ ^түс<v><iv><ger><loc>$^.<sent>$
+^экспорт<n><abl>$ ^түс<v><iv><gpr_impf>$ ^түс<n><px1sg><nom>$ ^едәуір<adv>$ ^азай<v><iv><ifi><p3><sg>$^.<sent>$
+^біз<prn><pers><p1><pl><gen>$ ^сауда-саттық<n><loc><attr>$ ^негізгі<adj>$ ^әрі<cnjcoo>$ ^жақын<adj>$ ^көрші<n><pl><px1pl><nom>$ ^–<guio>$ ^Ресей<np><top><nom>$ ^мен<prn><pers><p1><sg><nom>$ ^Украина<np><top><nom>$ ^х<guio>$ ^өз<det><ref>$ ^ұлттық<adj>$ ^валюта<n><pl><px3sp><acc>$ ^*девальвациялады$^.<sent>$
+^*аражаттың$ ^бас<n><dat>$ ^бір<num>$ ^көз<n><px3sp><nom>$ ^–<guio>$ ^бұл<det><dem>$ ^бюджет<n><gen>$ ^барлық<adj>$ ^шығыс<adj>$ ^бап<n><pl><px3sp><nom>$ ^бойынша<post>$ ^қатал<adj>$ ^үнемде<v><iv><ger><nom>$ ^мен<prn><pers><p1><sg><nom>$ ^қатаң<adj>$ ^қаржылық<adj>$ ^тәртіп<n><nom>+е<cop><aor><p3><sg>$^.<sent>$
+^қаржылық<adj>$ ^тәртіп<n><acc>$ ^бұзушы<n><pl><abl>$ ^дағдарыс<n><nom>$ ^кезең<n><px3sp><gen>$ ^заң<n><pl><px3sp><nom>$ ^бойынша<post>$ ^қатаң<adj>$ ^сұра<v><tv><ger><nom>$ ^бол<v><iv><ger><px3sp><nom>$ ^тиіс<adj>$^.<sent>$
+^басым<adj>$ ^е<cop><neg><aor><p3><sg>$ ^шығыс<n><pl><gen>$ ^барлық<prn><qnt><px3sp><nom>$ ^х<guio>$ ^әкімшілік<n><nom>+е<cop><aor><p3><sg>$^,<cm>$ ^инвестициялық<adj>$ ^және<cnjcoo>$ ^басқа<adj><subst><pl><px3sp><nom>$ ^нөл<n><dat>$ ^теңестір<v><tv><pass><ger><dat>$ ^тиіс<adj>$^,<cm>$ ^х<guio>$ ^де<v><tv><gna_perf>$ ^мәлімде<v><tv><ifi><p3><sg>$ ^Қазақстан<np><top><nom>$ ^президент<n><px3sp><nom>+е<cop><aor><p3><sg>$^.<sent>$
+^мемлекет<n><nom>$ ^басшы<n><px3sp><nom>$ ^үкімет<n><nom>$ ^мен<cnjcoo>$ ^мемлекеттік<adj>$ ^орган<n><pl><gen>$ ^алд<n><px3sp><dat>$ ^бірқатар<det><qnt>$ ^міндетте<v><tv><gpr_fut>$ ^қой<v><tv><ifi><p3><sg>$^.<sent>$
+^*Қазақстандықтарды$ ^жұмыс<n><ins>$ ^қамт<v><tv><ger><nom>$ ^стратегия<n><px3sp><acc>$ ^іске асыр<v><tv><ger><nom>$ ^қажет<adj>$^.<sent>$
+^жұмыс<n><ins>$ ^қамт<v><tv><ger><nom>$ ^стратегия<n><px3sp><acc>$ ^қос<v><tv><gna_impf>$ ^қаржыландыр<v><tv><ger><nom>$ ^сондай-ақ<cnjcoo>$ ^жергілікті<adj>$ ^бюджет<n><pl><abl>+да<cnjcoo>$ ^бөлін<v><tv><aor><p3><sg>$^.<sent>$
+^осы<det><dem>$ ^орай<n><loc>$ ^қазақстандық<adj>$ ^өндіруші<n><pl><gen>$ ^әлеует<n><px3sp><acc>$ ^барынша<adv>$ ^пайдалан<v><tv><ger><nom>$ ^қажет<adj>$^.<sent>$
+^әлеуметтік<adj>$ ^жұмыс<n><nom>$ ^орын<n><pl><px3sp><acc>$ ^кеңейт<v><tv><ger><nom>$ ^мен<cnjcoo>$ ^жаста<v><tv><gpr_fut>$ ^тәжірибе<n><px3sp><acc>$ ^ұйымдастыр<v><tv><ger><nom>$ ^керек<adj>+е<cop><aor><p3><sg>$^.<sent>$
+^2008<num>$ ^жыл<n><px3sp><nom>$ ^13<num>$ ^мың<n><abl>$ ^астам<adj>$ ^ада<n><px1sg><nom>$ ^осы<det><dem>$ ^бағдарлама<n><pl><nom>$ ^бойынша<post>$ ^өз<det><ref>$ ^мүмкіндік<n><pl><px3sp><acc>$ ^іске асыр<v><tv><ifi><p3><sg>$^.<sent>$
+^бұл<prn><dem><nom>$ ^Қазақстан<np><top><nom>$ ^президент<n><px3sp><gen>$ ^құрама<n><nom>$ ^корольдік<n><dat>$ ^жаса<v><tv><prc_perf>$ ^отыр<vaux><gpr_past>$ ^алты<num><ord>$ ^сапар<n><px3sp><nom>+е<cop><aor><p3><sg>$^.<sent>$
+^жаңа<adj>$ ^экономикалық<adj>$ ^мүмкіндік<n><pl><acc>$ ^пайдалан<v><tv><ger><acc>$ ^қол<adj><subst><dat>$ ^алу<n><attr>$ ^қажет<adj>$^.<sent>$
+^қазір<adv>$ ^жаңа<adj>$ ^жоба<n><pl><acc>$ ^бастау<n><attr>$ ^үшін<post>$ ^қолайлы<adj>$ ^уақыт<n><nom>$ ^ту<v><iv><ifi><p3><sg>$^.<sent>$
+^үлес<v><iv><ifi><p1><pl>$ ^құрылыс<n><nom>$ ^нарық<n><px3sp><loc><attr>$ ^ахуал<n><nom>$ ^туралы<post>$ ^ақпарат<n><nom>$ ^адам<n><pl><nom>$ ^үшін<post>$ ^қолжетімсіз<adj>$ ^бол<v><iv><prc_perf>$ ^отыр<vaux><pres><p3><sg>$^.<sent>$
+^осы<det><dem>$ ^мақсат<n><pl><dat>$ ^жергілікті<adj>$ ^бюджет<n><pl><gen>+да<cnjcoo>$ ^қаражат<n><pl><px3sp><nom>$ ^бағытта<v><tv><pass><ger><loc>$^.<sent>$
+^мемлекет<n><nom>$ ^басшы<n><px3sp><nom>$ ^Нұрсұлтан<np><ant><m><nom>$ ^Назарбаев<np><cog><m><nom>$ ^ресми<adj>$ ^сапар<n><ins>$ ^қат<v><iv><gpr_fut>$ ^мемлекет<n><px3sp><dat>$ ^кел<v><iv><ifi><p3><sg>$^.<sent>$
+^сіздер<prn><pers><p2><pl><frm><gen>$ ^облыс<n><nom>$ ^экономика<n><px3sp><nom>+да<cnjcoo>$ ^өс<v><iv><ger><loc>$^.<sent>$
+^осы<prn><dem><loc>$ ^тұрғын<adj>$ ^үй<n><nom>$ ^бер<v><iv><ger><nom>$ ^көлем<n><px3sp><nom>$ ^төрт<num>$ ^есе<n><abl>$ ^астам<adj><subst><dat>$ ^өс<v><iv><prc_perf>$ ^отыр<vaux><pres><p3><sg>$^.<sent>$
+^төрт<num>$ ^мың<num>$ ^отбасы<n><nom>$ ^осы<prn><dem><nom>$ ^*ықшамауданнан$ ^пәтер<n><nom>$ ^ал<v><tv><fut_plan><p3><sg>$^.<sent>$
+^біз<prn><pers><p1><pl><nom>$ ^бірқатар<det><qnt>$ ^экономикалық<adj>$ ^ынтымақтастық<n><attr>$ ^мәселе<n><pl><px3sp><nom>$ ^бойынша<post>$ ^келісім<n><dat>$ ^кел<v><iv><ifi><p1><pl>$^.<sent>$
+^Қазақстан<np><top><gen>$ ^нақ<adj>$ ^осы<prn><dem><advl>$ ^дам<v><iv><ger><px3sp><nom>$ ^–<guio>$ ^өңір<n><loc><attr>$ ^барлық<adj>$ ^ел<n><pl><gen>$ ^өрле<v><iv><ger><px3sp><dat>$ ^мүмкіндік туғыз<v><iv><aor><p3><sg>$^.<sent>$
+^келіссөз<n><pl><nom>$ ^нәтиже<n><px3sp><loc>$ ^бірлес<v><iv><gpr_past>$ ^коммюнике<n><nom>$ ^қабылда<v><tv><pass><ifi><p3><sg>$^.<sent>$
+^Германия<np><top><nom>$ ^ұзақ<adj>$ ^жыл<n><pl><nom>$ ^бойы<post>$ ^Қазақстан<np><top><gen>$ ^ірі<adj>$ ^экономикалық<adj>$ ^әріптес<n><pl><px3sp><gen>$ ^қат<v><iv><ger_fut><px3sp><loc>$^.<sent>$^.<sent>$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

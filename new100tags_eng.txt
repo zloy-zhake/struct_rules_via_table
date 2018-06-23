@@ -1,0 +1,167 @@
+^The<det><def><sp>$ ^text<n><sg>$ ^of<pr>$ ^the<det><def><sp>$ ^Law<n><sg>$ ^will<vaux><inf>$ ^be<vbser><inf>$ ^publish<vblex><pp>$ ^in<pr>$ ^the<det><def><sp>$ ^press<n><sg>$^.<sent>$
+^We<prn><subj><p1><mf><pl>$ ^be<vbser><past>$ ^please<vblex><pp>$ ^to<pr>$ ^know<vblex><inf>$ ^this<det><dem><sg>$^.<sent>$
+^The<det><def><sp>$ ^company<n><sg>$ ^have<vbhaver><pres><p3><sg>$ ^be<vbser><pp>$ ^positively<adv>$ ^evaluate<vblex><pp>$ ^by<pr>$ ^foreign<adj>$ ^investor<n><pl>$^.<sent>$
+^The<det><def><sp>$ ^award<n><sg>$ ^be<vbser><pres><p3><sg>$ ^honour<vblex><pp>$ ^for<pr>$ ^great<n><sg>$ ^achievement<n><pl>$ ^in<pr>$ ^the<det><def><sp>$ ^development<n><sg>$ ^and<cnjcoo>$ ^promotion<n><sg>$ ^of<pr>$ ^the<det><def><sp>$ ^Islamic<n><sg>$ ^financial<adj>$ ^market<n><sg>$ ^at<pr>$ ^the<det><def><sp>$ ^regional<adj>$ ^and<cnjcoo>$ ^international<adj>$ ^level<n><pl>$^.<sent>$
+^Chinese<n><sg>$ ^person<n><pl>$ ^know<vblex><pres>$ ^You<prn><obj><p2><mf><sp>$ ^very<preadv>$ ^well<adv>$ ^and<cnjcoo>$ ^respect<n><sg>$ ^You<prn><subj><p2><mf><sp>$^.<sent>$
+^We<prn><subj><p1><mf><pl>$ ^support<vblex><pres>$ ^the<det><def><sp>$ ^close<adj><sint>$ ^contact<n><pl>$ ^between<pr>$ ^our<det><pos><sp>$ ^country<n><pl>$^.<sent>$
+^There<adv>$ ^be<vbser><pres>$ ^personal<adj>$ ^friendship<n><sg>$ ^and<cnjcoo>$ ^work<vblex><ger>$ ^tie<vblex><pres><p3><sg>$ ^that<prn><tn><mf><sg>$ ^unite<vblex><inf>$ ^we<prn><obj><p1><mf><pl>$^.<sent>$
+^Today<adv>$^,<cm>$ ^there<adv>$ ^be<vbser><pres>$ ^2,105<num>$ ^really<preadv>$ ^active<adj>$ ^media<n><sg>$ ^register<vblex><pp>$ ^in<pr>$ ^the<det><def><sp>$ ^country<n><sg>$^.<sent>$
+^Among<pr>$ ^they<prn><obj><p3><mf><pl>$ ^be<vbser><pres>$ ^1,360<num>$ ^newspaper<n><pl>$^,<cm>$ ^511<num>$ ^magazine<n><pl>$^,<cm>$ ^49<num>$ ^radio<n><sg>$ ^station<vblex><pres><p3><sg>$ ^and<cnjcoo>$ ^71<num>$ ^television<n><sg>$ ^company<n><pl>$^.<sent>$
+^This<det><dem><sg>$ ^scientific<adj>$ ^institution<n><sg>$ ^will<vaux><inf>$ ^study<vblex><inf>$ ^source<n><pl>$ ^of<pr>$ ^new<adj><sint>$ ^energy<n><sg>$^.<sent>$
+^There<adv>$ ^be<vbser><pres><p3><sg>$ ^a<det><ind><sg>$ ^need# to<vbmod><pres>$ ^gather<vblex><inf>$ ^international<adj>$ ^experience<n><sg>$ ^and<cnjcoo>$ ^offer<vblex><pres>$ ^the<det><def><sp>$ ^opportunity<n><sg>$ ^to<pr>$ ^analyse<vblex><inf>$ ^it<prn><subj><p3><nt><sg>$ ^at<pr>$ ^our<det><pos><sp>$ ^laboratory<n><pl>$^.<sent>$
+^The<det><def><sp>$ ^project<n><pl>$ ^of<pr>$ ^get<vblex><ger>$ ^different<adj>$ ^type<n><pl>$ ^of<pr>$ ^energy<n><sg>$ ^be<vbser><pres>$ ^already<adv>$ ^be<vbser><ger>$ ^send<vblex><pp>$ ^to<pr>$ ^I<prn><obj><p1><mf><sg>$^.<sent>$
+^It<prn><subj><p3><nt><sg>$ ^be<vbser><pres><p3><sg>$ ^necessary<adj>$ ^to<pr>$ ^study<vblex><inf>$ ^they<prn><obj><p3><mf><pl>$ ^for<pr>$ ^realisation<n><sg>$^,<cm>$ ^the<det><def><sp>$ ^President<n><sg>$ ^say<vblex><past>$^.<sent>$
+^During<pr>$ ^the<det><def><sp>$ ^visit<n><sg>$ ^to<pr>$ ^the<det><def><sp>$ ^*Koktem$ ^housing<n><sg>$ ^estate<n><sg>$ ^the<det><def><sp>$ ^President<n><sg>$ ^congratulate<vblex><past>$ ^new<adj><sint>$ ^settler<n><pl>$ ^on<adv>$ ^get<vblex><ger>$ ^new<adj><sint>$ ^flat<n><pl>$^.<sent>$
+^You<prn><subj><p2><mf><sp>$ ^know<vblex><pres>$ ^that<det><dem><sg>$ ^housing<n><sg>$ ^build<vblex><ger>$ ^have<vbhaver><pres><p3><sg>$ ^become<vblex><pp>$ ^the<det><def><sp>$ ^drive<vblex><subs>$ ^force<vblex><pres>$ ^of<pr>$ ^Kazakhstan<np><top><sg>$ ^'s<gen>$ ^economy<n><sg>$^.<sent>$
+^The<det><def><sp>$ ^rate<n><pl>$ ^of<pr>$ ^housing<n><sg>$ ^building<n><sg>$ ^be<vbser><pres>$ ^rapidly<adv>$ ^grow<vblex><ger>$^.<sent>$
+^The<det><def><sp>$ ^correspondent<n><sg>$ ^state<vblex><pres>$ ^program<n><sg>$ ^be<vbser><pres><p3><sg>$ ^be<vbser><ger>$ ^over<adv>$ ^fulfil<vblex><past>$^.<sent>$
+^I<prn><subj><p1><mf><sg>$ ^can<vaux><pres>$ ^imagine<vblex><inf>$ ^how<adv><itg>$ ^many<det><qnt><pl>$ ^problem<n><pl>$ ^Uzbekistan<np><top><sg>$ ^have# to<vbmod><pres><p3><sg>$ ^solve<vblex><pres>$ ^today<adv>$^.<sent>$
+^We<prn><subj><p1><mf><pl>$ ^-<guio>$ ^Kazakhstan<np><top><sg>$^,<cm>$ ^Russia<np><top><sg>$ ^and<cnjcoo>$ ^Uzbekistan<np><top><sg>$ ^-<guio>$ ^together<adv>$ ^help<vblex><pres>$ ^Kyrgyzstan<np><top><sg>$^.<sent>$
+^There<adv>$ ^be<vbser><pres><p3><sg>$ ^a<det><ind><sg>$ ^opinion<n><sg>$ ^that<rel><an><mf><sp>$ ^Kyrgyzstan<np><top><sg>$ ^be<vbser><pres><p3><sg>$ ^a<det><ind><sg>$ ^poor<adj><sint>$ ^country<n><sg>$ ^which<rel><an><mf><sp>$ ^can<vaux><pres>$ ^not<adv>$ ^achieve<vblex><inf>$ ^success<n><sg>$^.<sent>$
+^I<prn><subj><p1><mf><sg>$ ^do<vbdo><pres>$ ^not<adv>$ ^agree<vblex><inf>$ ^with<pr>$ ^this<det><dem><sg>$ ^statement<n><sg>$^.<sent>$
+^Kyrgyzstan<np><top><sg>$ ^be<vbser><pres><p3><sg>$ ^rich<adj><sint>$ ^in<pr>$ ^gold<n><sg>$^,<cm>$ ^iron<n><sg>$^,<cm>$ ^silver<n><sg>$^,<cm>$ ^copper<n><sg>$ ^and<cnjcoo>$ ^other<adj>$ ^resource<n><pl>$^.<sent>$
+^The<det><def><sp>$ ^country<n><sg>$ ^possess<vblex><pres><p3><sg>$ ^huge<adj>$ ^potential<n><sg>$ ^for<pr>$ ^development<n><sg>$ ^of<pr>$ ^tourism<n><sg>$^.<sent>$
+^All<predet><sp>$ ^of<pr>$ ^this<det><dem><pl>$ ^sector<n><pl>$ ^must<vaux><inf>$ ^be<vbser><inf>$ ^develop<vblex><pp>$^.<sent>$
+^Humanitarian<adj>$ ^aid<vblex><pres>$ ^can<vaux><pres>$ ^not<adv>$ ^help<vblex><inf>$ ^raise<vblex><pres>$ ^any<det><ind><sp>$ ^country<n><sg>$^.<sent>$
+^The<det><def><sp>$ ^first<adv>$ ^question<n><sg>$ ^be<vbser><pres><p3><sg>$ ^whether<cnjadv>$ ^the<det><def><sp>$ ^country<n><sg>$ ^be<vbser><pres><p3><sg>$ ^able<adj><sint>$ ^to<pr>$ ^raise<vblex><inf>$ ^economy<n><sg>$^,<cm>$ ^provide<vblex><pres>$ ^its<det><pos><sp>$ ^person<n><pl>$ ^with<pr>$ ^job<n><pl>$^.<sent>$
+^This<det><dem><sg>$ ^be<vbser><pres><p3><sg>$ ^the<det><def><sp>$ ^only<adv>$ ^condition<vblex><pres>$ ^of<pr>$ ^the<det><def><sp>$ ^country<n><sg>$ ^'s<gen>$ ^stability<n><sg>$^.<sent>$
+^Therefore<cnjadv>$ ^a<det><ind><sg>$ ^special<adj>$ ^program<n><sg>$ ^of<pr>$ ^Kyrgyzstan<np><top><sg>$ ^'s<gen>$ ^economic<adj>$ ^revival<n><sg>$ ^must<vaux><inf>$ ^be<vbser><inf>$ ^develop<vblex><pp>$ ^and<cnjcoo>$ ^Kazakhstan<np><top><sg>$ ^be<vbser><pres><p3><sg>$ ^ready<adj><sint>$ ^to<pr>$ ^help<n><sg>$ ^in<pr>$ ^its<det><pos><sp>$ ^elaboration<n><sg>$^.<sent>$
+^Today<adv>$ ^the<det><def><sp>$ ^world<n><sg>$ ^have<vbhaver><pres><p3><sg>$ ^be<vbser><pp>$ ^mark<vblex><ger>$ ^for<pr>$ ^the<det><def><sp>$ ^third<n><sg>$ ^time<vblex><pres>$ ^the<det><def><sp>$ ^observation<n><sg>$ ^of<pr>$ ^the<det><def><sp>$ ^International<adj>$ ^Day<n><sg>$ ^against<pr>$ ^Nuclear<adj>$ ^Test<n><pl>$^.<sent>$
+^In<pr>$ ^this<det><dem><sg>$ ^concern<n><sg>$ ^I<prn><subj><p1><mf><sg>$ ^would<vaux><past>$ ^like<vblex><inf>$ ^to<pr>$ ^highlight<vblex><inf>$ ^three<num><sp>$ ^main<adj>$ ^point<n><pl>$^.<sent>$
+^Kazakhstan<np><top><sg>$ ^voluntarily<adv>$ ^renounce<vblex><past>$ ^the<det><def><sp>$ ^world<n><sg>$ ^be<vbser><pres><p3><sg>$ ^fourth<det><ord><sp>$ ^large<adj><sint><sup>$ ^nuclear<adj>$ ^potential<n><sg>$^,<cm>$ ^inherit<vblex><pp>$ ^from<pr>$ ^the<det><def><sp>$ ^Soviet<adj>$ ^military<n><sg>$ ^machine<n><sg>$^.<sent>$
+^It<prn><subj><p3><nt><sg>$ ^be<vbser><past><p3><sg>$ ^more than<preadv>$ ^110<num>$ ^ballistic<adj>$ ^missile<n><pl>$ ^with<pr>$ ^1200<num>$ ^nuclear<adj>$ ^warhead<n><pl>$^,<cm>$ ^able<adj><sint>$ ^to<pr>$ ^reach<vblex><inf>$ ^any<det><ind><sp>$ ^point<n><sg>$ ^on<pr>$ ^the<det><def><sp>$ ^earth<n><sg>$^.<sent>$
+^At<pr>$ ^that<det><dem><sg>$ ^time<n><sg>$^,<cm>$ ^we<prn><subj><p1><mf><pl>$ ^often<adv>$ ^hear<vblex><past>$ ^opinion<n><pl>$ ^that<rel><an><mf><sp>$ ^lower<vblex><past>$ ^the<det><def><sp>$ ^significance<n><sg>$ ^of<pr>$ ^Kazakhstan<np><top><sg>$ ^'s<gen>$ ^courageous<adj>$ ^step<n><sg>$^.<sent>$
+^But<cnjcoo>$ ^we<prn><subj><p1><mf><pl>$ ^show<vblex><past>$ ^political<adj>$ ^will<n><sg>$ ^and<cnjcoo>$ ^unconditionally<adv>$ ^withdraw<vblex><past>$ ^from<pr>$ ^the<det><def><sp>$ ^membership<n><sg>$ ^in<pr>$ ^the<det><def><sp>$ ^Nuclear<adj>$ ^Club<n><sg>$^.<sent>$
+^In<pr>$ ^cooperation<n><sg>$ ^with<pr>$ ^the<det><def><sp>$ ^Unite<vblex><pp>$ ^State<vblex><pres><p3><sg>$ ^and<cnjcoo>$ ^Russia<np><top><sg>$ ^we<prn><subj><p1><mf><pl>$ ^eliminate<vblex><past>$ ^the<det><def><sp>$ ^warhead<n><pl>$ ^and<cnjcoo>$ ^bomb<n><pl>$^.<sent>$
+^Before<adv>$ ^August<n><sg>$ ^29<num><year>$^,<cm>$ ^1991<num>$ ^mainly<adv>$ ^*restrictive$ ^measure<vblex><pres><p3><sg>$ ^on<pr>$ ^nuclear<adj>$ ^safety<n><sg>$ ^have<vbhaver><past>$ ^be<vbser><pp>$ ^take<vblex><pp>$^.<sent>$
+^Sixteen<num><sp>$ ^year<n><pl>$ ^ago<adv>$^,<cm>$ ^by<pr>$ ^the<det><def><sp>$ ^UN<n><acr><sg>$ ^decision<n><sg>$ ^the<det><def><sp>$ ^Comprehensive<adj>$ ^Test<n><sg>$ ^Ban<vblex><pres>$ ^Treaty<n><sg>$ ^be<vbser><past><p3><sg>$ ^open<vblex><pp>$ ^for<pr>$ ^signature<n><sg>$^.<sent>$
+^And<cnjcoo>$ ^Kazakhstan<np><top><sg>$ ^be<vbser><past><p3><sg>$ ^among<pr>$ ^the<det><def><sp>$ ^first<adv>$ ^to<pr>$ ^join<vblex><inf>$ ^it<prn><obj><p3><nt><sg>$^.<sent>$
+^Now<adv>$ ^183<num>$ ^country<n><pl>$ ^have<vbhaver><pres>$ ^already<adv>$ ^join<vblex><past>$ ^the<det><def><sp>$ ^Treaty<n><sg>$^,<cm>$ ^and<cnjcoo>$ ^157<num>$ ^state<n><pl>$ ^ratify<vblex><past>$ ^it<prn><obj><p3><nt><sg>$^.<sent>$
+^All<predet><sp>$ ^the<det><def><sp>$ ^member<n><sg>$ ^state<vblex><pres><p3><sg>$ ^of<pr>$ ^the<det><def><sp>$ ^Nuclear<adj>$ ^Club<n><sg>$ ^observe<vblex><pres>$ ^moratorium<n><sg>$ ^on<pr>$ ^nuclear<adj>$ ^testing<n><sg>$^.<sent>$
+^Lady<n><pl>$ ^and<cnjcoo>$ ^Gentleman<n><pl>$^!<sent>$
+^Firstly<adv>$^,<cm>$ ^we<prn><subj><p1><mf><pl>$ ^have<vbhaver><pres>$ ^not<adv>$ ^reach<vblex><pp>$ ^the<det><def><sp>$ ^universality<n><sg>$ ^of<pr>$ ^the<det><def><sp>$ ^non<adv>$^-<guio>$^proliferation<n><sg>$ ^regime<n><sg>$^.<sent>$
+^New<adj><sint>$ ^nuclear<adj>$ ^and<cnjcoo>$ ^some<det><qnt><sp>$ ^threshold<n><sg>$ ^country<n><pl>$ ^be<vbser><pres>$ ^still<vblex><inf>$ ^not<adv>$ ^include<vblex><pp>$ ^in<pr>$ ^the<det><def><sp>$ ^Treaty<n><sg>$^.<sent>$
+^Secondly<adv>$^,<cm>$ ^two<num><sp>$ ^year<n><pl>$ ^ago<adv>$^,<cm>$ ^the<det><def><sp>$ ^Unite<vblex><pp>$ ^State<vblex><pres><p3><sg>$ ^and<cnjcoo>$ ^Russia<np><top><sg>$ ^sign<vblex><past>$ ^the<det><def><sp>$ ^Prague<np><top><sg>$ ^Treaty<n><sg>$ ^which<rel><an><mf><sp>$ ^*furthered$ ^a<det><ind><sg>$ ^Strategic<adj>$ ^Arms<n><sg>$ ^Reduction<n><sg>$ ^process<vblex><pres>$^.<sent>$
+^However<adv>$^,<cm>$ ^this<det><dem><sg>$ ^do<vbdo><past>$ ^not<adv>$ ^become<vblex><pp>$ ^a<det><ind><sg>$ ^example<n><sg>$ ^for<pr>$ ^other<prn><tn><m><sg>$ ^nuclear<adj>$^-<guio>$^weapon<n><sg>$ ^state<vblex><pres><p3><sg>$^.<sent>$
+^*Thirdly$^,<cm>$ ^the<det><def><sp>$ ^Comprehensive<adj>$ ^Nuclear<adj>$ ^Test<n><sg>$ ^Ban<vblex><pres>$ ^Treaty<n><sg>$ ^can<vaux><pres>$ ^not<adv>$ ^come<vblex><inf>$ ^into<pr>$ ^force<n><sg>$^.<sent>$
+^Signature<n><pl>$ ^of<pr>$ ^only<adv>$ ^a few<det><qnt><sg>$ ^threshold<n><sg>$ ^group<vblex><pres>$ ^country<n><pl>$ ^be<vbser><pres>$ ^need<vblex><pp>$ ^for<pr>$ ^it<prn><obj><p3><nt><sg>$ ^to<pr>$ ^become<vblex><inf>$ ^operative<n><sg>$^.<sent>$
+^Here<adv>$ ^be<vbser><pres><p3><sg>$ ^a<det><ind><sg>$ ^incomplete<adj>$ ^list<n><sg>$ ^of<pr>$ ^issue<n><pl>$ ^slow# down<vblex><sep><ger>$ ^the<det><def><sp>$ ^formation<n><sg>$ ^of<pr>$ ^the<det><def><sp>$ ^global<adj>$ ^nuclear<adj>$ ^safety<n><sg>$ ^system<n><sg>$^.<sent>$
+^But<cnjcoo>$ ^all<predet><sp>$ ^this<det><dem><pl>$ ^be<vbser><pres>$ ^only<adv>$ ^result<vblex><pres><p3><sg>$^,<cm>$ ^not<adv>$ ^reason<vblex><pres><p3><sg>$^.<sent>$
+^The<det><def><sp>$ ^source<n><pl>$ ^of<pr>$ ^this<det><dem><pl>$ ^problem<n><pl>$ ^be<vbser><pres>$ ^deep<adj><sint><comp>$^.<sent>$
+^The<det><def><sp>$ ^drawback<vblex><pres><p3><sg>$ ^of<pr>$ ^the<det><def><sp>$ ^modern<adj>$ ^global<adj>$ ^politics<n><sg>$^,<cm>$ ^largely<adv>$ ^inherit<vblex><pp>$ ^from<pr>$ ^the<det><def><sp>$ ^past<vblex><inf>$ ^epoch<n><pl>$ ^influence<vblex><pres>$ ^the<det><def><sp>$ ^current<adj>$ ^state<n><sg>$ ^of<pr>$ ^the<det><def><sp>$ ^global<adj>$ ^nuclear<adj>$ ^safety<n><sg>$^.<sent>$
+^The<det><def><sp>$ ^chaotic<adj>$ ^nature<n><sg>$ ^of<pr>$ ^the<det><def><sp>$ ^objective<n><sg>$ ^course<n><sg>$ ^of<pr>$ ^a<det><ind><sg>$ ^multi<adv>$^-<guio>$^polar<adj>$ ^world<n><sg>$ ^worsen<vblex><pres><p3><sg>$ ^the<det><def><sp>$ ^situation<n><sg>$^.<sent>$
+^Some<det><qnt><sp>$ ^politician<n><pl>$ ^and<cnjcoo>$ ^military<adj>$ ^man<n><pl>$ ^be<vbser><pres>$ ^still<vblex><inf>$ ^intoxicated<adj>$ ^with<pr>$ ^the<det><def><sp>$ ^opium<n><sg>$ ^of<pr>$ ^military<n><sg>$ ^atom<n><sg>$^.<sent>$
+^I<prn><subj><p1><mf><sg>$ ^be<vbser><pres><p1><sg>$ ^convince<vblex><pp>$ ^that<prn><tn><mf><sg>$ ^there<adv>$ ^be<vbser><pres><p3><sg>$ ^no<ij>$ ^place<vblex><pres>$ ^for<pr>$ ^*exotica$ ^of<pr>$ ^nuclear<adj>$ ^umbrella<n><pl>$ ^in<pr>$ ^the<det><def><sp>$ ^future<n><sg>$^.<sent>$
+^And<cnjcoo>$ ^at the same time<adv>$ ^the<det><def><sp>$ ^twenty<num><sp>$^-<guio>$^first<adv>$ ^century<n><sg>$ ^be<vbser><pres><p3><sg>$ ^impossible<adj>$ ^without<pr>$ ^nuclear<adj>$ ^power<n><sg>$^.<sent>$
+^According<pr>$ ^to<pr>$ ^expert<n><pl>$^,<cm>$ ^the<det><def><sp>$ ^need<n><pl>$ ^of<pr>$ ^the<det><def><sp>$ ^world<n><sg>$ ^economy<n><sg>$ ^in<pr>$ ^energy<n><sg>$ ^will<vaux><inf>$ ^be<vbser><inf>$ ^double<vblex><pp>$ ^by<pr>$ ^2035<num>$^.<sent>$
+^Today<adv>$ ^about<pr>$ ^2<num>$ ^billion<num><sg>$ ^person<n><pl>$ ^on<pr>$ ^the<det><def><sp>$ ^planet<n><sg>$ ^have<vblex><pres>$ ^no<ij>$ ^access<n><sg>$ ^to<pr>$ ^electricity<n><sg>$^.<sent>$
+^The<det><def><sp>$ ^nuclear<adj>$^-<guio>$^free<adj><sint>$ ^world<n><sg>$ ^be<vbser><pres><p3><sg>$ ^a<det><ind><sg>$ ^complete<vblex><inf>$ ^ban<vblex><pres>$ ^on<pr>$ ^the<det><def><sp>$ ^military<adj>$ ^use<n><sg>$ ^of<pr>$ ^nuclear<adj>$ ^energy<n><sg>$^.<sent>$
+^This<det><dem><sg>$ ^be<vbser><pres><p3><sg>$ ^the<det><def><sp>$ ^essence<n><sg>$ ^of<pr>$ ^my<det><pos><sp>$ ^proposal<n><sg>$ ^on<pr>$ ^the<det><def><sp>$ ^development<n><sg>$ ^and<cnjcoo>$ ^adoption<n><sg>$ ^of<pr>$ ^the<det><def><sp>$ ^Universal<adj>$ ^Declaration<n><sg>$ ^of<pr>$ ^a<det><ind><sg>$ ^nuclear<adj>$^-<guio>$^free<adj><sint>$ ^world<n><sg>$^.<sent>$
+^I<prn><subj><p1><mf><sg>$ ^remain<vblex><pres>$ ^a<det><ind><sg>$ ^consistent<adj>$ ^supporter<n><sg>$ ^of<pr>$ ^this<det><dem><sg>$ ^idea<n><sg>$^.<sent>$
+^Distinguished<adj>$ ^participant<n><pl>$ ^of<pr>$ ^the<det><def><sp>$ ^conference<n><sg>$^!<sent>$
+^First<adv>$ ^of<pr>$ ^all<predet><sp>$^,<cm>$ ^the<det><def><sp>$ ^nuclear<adj>$ ^test<n><sg>$ ^ban<vblex><pres>$ ^treaty<n><sg>$ ^should<vaux><inf>$ ^be<vbser><inf>$ ^enter<vblex><pp>$ ^into<pr>$ ^force<n><sg>$^.<sent>$
+^The<det><def><sp>$ ^movement<n><sg>$ ^to<pr>$ ^the<det><def><sp>$ ^nuclear<adj>$ ^free<adj><sint>$ ^world<n><sg>$ ^be<vbser><pres><p3><sg>$ ^the<det><def><sp>$ ^way<n><sg>$ ^to<pr>$ ^constructive<adj>$ ^*multilateralism$^.<sent>$
+^We<prn><subj><p1><mf><pl>$ ^be<vbser><pres>$ ^grateful<adj>$ ^to<pr>$ ^all<predet><sp>$ ^for<pr>$ ^this<det><dem><sg>$ ^help<n><sg>$^.<sent>$
+^I<prn><subj><p1><mf><sg>$ ^be<vbser><pres><p1><sg>$ ^thankful<adj>$ ^for<pr>$ ^his<det><pos><sp>$ ^support<n><sg>$ ^and<cnjcoo>$ ^high<adj><sint>$ ^appreciation<n><sg>$ ^of<pr>$ ^the<det><def><sp>$ ^*anti$^-<guio>$^nuclear<adj>$ ^policy<n><sg>$ ^and<cnjcoo>$ ^initiative<n><pl>$ ^of<pr>$ ^Kazakhstan<np><top><sg>$^.<sent>$
+^Today<adv>$^,<cm>$ ^the<det><def><sp>$ ^humanity<n><sg>$ ^have<vblex><pres><p3><sg>$ ^a<det><ind><sg>$ ^unique<adj>$ ^chance<n><sg>$ ^to<pr>$ ^get<vblex><inf>$ ^away<adv>$ ^from<pr>$ ^the<det><def><sp>$ ^endless<adv>$ ^brink<n><sg>$ ^of<pr>$ ^nuclear<adj>$ ^collapse<vblex><pres>$^.<sent>$
+^And<cnjcoo>$ ^for<pr>$ ^that<prn><tn><mf><sg>$^,<cm>$ ^more than<preadv>$ ^ever<adv>$ ^it<prn><subj><p3><nt><sg>$ ^be<vbser><pres><p3><sg>$ ^important<adj>$ ^to<pr>$ ^bring<vblex><inf>$ ^together<adv>$ ^all<adj>$ ^nation<n><pl>$ ^and<cnjcoo>$ ^all<adj>$ ^person<n><pl>$ ^of<pr>$ ^good<n><sg>$ ^will<vaux><inf>$^!<sent>$
+^*Parliamentarians$ ^from<pr>$ ^all<adj>$ ^country<n><pl>$ ^of<pr>$ ^the<det><def><sp>$ ^world<n><sg>$ ^be<vbser><pres>$ ^present<vblex><inf>$ ^at<pr>$ ^the<det><def><sp>$ ^conference<n><sg>$ ^today<adv>$^.<sent>$
+^That<prn><tn><mf><sg>$ ^be<vbser><pres><p3><sg>$ ^why<adv><itg>$ ^this<det><dem><sg>$ ^forum<n><sg>$ ^can<vaux><pres>$ ^be<vbser><inf>$ ^call<vblex><pp>$ ^a<det><ind><sg>$ ^prototype<n><sg>$ ^of<pr>$ ^the<det><def><sp>$ ^global<adj>$ ^*antinuclear$ ^parliamentary<adj>$ ^assembly<n><sg>$^.<sent>$
+^I<prn><subj><p1><mf><sg>$ ^suggest<vblex><pres>$ ^consider<vblex><ger>$ ^the<det><def><sp>$ ^establishment<n><sg>$ ^of<pr>$ ^such<n><sg>$ ^international<adj>$ ^public<n><sg>$ ^institute<n><sg>$^.<sent>$
+^I<prn><subj><p1><mf><sg>$ ^have<vbhaver><pres>$ ^no<ij>$ ^doubt<vblex><pres>$ ^that<prn><tn><mf><sg>$ ^a<det><ind><sg>$ ^important<adj>$ ^component<n><sg>$ ^of<pr>$ ^this<det><dem><sg>$ ^order<n><sg>$ ^will<vaux><inf>$ ^be<vbser><inf>$ ^a<det><ind><sg>$ ^nuclear<adj>$^-<guio>$^free<adj><sint>$ ^world<n><sg>$^.<sent>$
+^The<det><def><sp>$ ^President<n><sg>$ ^view<vblex><past>$ ^manufacture<vblex><pprs>$ ^shop<n><pl>$ ^produce<vblex><ger>$ ^paper<n><sg>$ ^and<cnjcoo>$ ^crimp<vblex><pp>$ ^cardboard<n><sg>$^.<sent>$
+^The<det><def><sp>$ ^crisis<n><sg>$ ^come<vblex><past>$ ^from<pr>$ ^outside<adv>$^.<sent>$
+^It<prn><subj><p3><nt><sg>$ ^appear<vblex><past>$ ^not<adv>$ ^within<adv>$ ^the<det><def><sp>$ ^country<n><sg>$ ^but<cnjcoo>$ ^be<vbser><past><p3><sg>$ ^hide<vblex><pp>$ ^in<pr>$ ^the<det><def><sp>$ ^*disbalances$ ^of<pr>$ ^global<adj>$ ^economy<n><sg>$^.<sent>$
+^It<prn><subj><p3><nt><sg>$ ^be<vbser><past><p3><sg>$ ^inevitable<adj>$ ^that<prn><tn><mf><sg>$ ^the<det><def><sp>$ ^crisis<n><sg>$ ^come<vblex><past>$^,<cm>$ ^the<det><def><sp>$ ^President<n><sg>$ ^emphasize<vblex><past>$^.<sent>$
+^The<det><def><sp>$ ^situation<n><sg>$ ^in<pr>$ ^the<det><def><sp>$ ^global<adj>$ ^economy<n><sg>$ ^be<vbser><pres><p3><sg>$ ^be<vbser><ger>$ ^worsen<vblex><ger>$^.<sent>$
+^Export<vblex><inf>$ ^proceed<vblex><pres><p3><sg>$ ^be<vbser><pres>$ ^be<vbser><ger>$ ^significantly<adv>$ ^decrease<vblex><ger>$ ^as well<adv>$^.<sent>$
+^Our<det><pos><sp>$ ^major<adj>$ ^and<cnjcoo>$ ^neighbour<n><sg>$ ^trade<vblex><ger>$ ^partner<n><pl>$ ^Russia<np><top><sg>$ ^and<cnjcoo>$ ^Ukraine<np><top><sg>$ ^*devalued$ ^their<det><pos><sp>$ ^national<adj>$ ^currency<n><pl>$^.<sent>$
+^Another<adj>$ ^source<n><sg>$ ^be<vbser><pres><p3><sg>$ ^a<det><ind><sg>$ ^tough<adj><sint>$ ^economy<n><sg>$ ^on<pr>$ ^all<adj>$ ^item<n><pl>$ ^of<pr>$ ^expenditure<n><pl>$ ^and<cnjcoo>$ ^strict<adj>$ ^financial<adj>$ ^discipline<n><sg>$^.<sent>$
+^The<det><def><sp>$ ^*violators$ ^of<pr>$ ^financial<adj>$ ^discipline<n><sg>$ ^should<vaux><inf>$ ^be<vbser><inf>$ ^responsible<adj>$ ^for<pr>$ ^under<pr>$ ^the<det><def><sp>$ ^law<n><sg>$ ^on<pr>$ ^crisis<n><sg>$^.<sent>$
+^All<predet><sp>$ ^administrative<adj>$^,<cm>$ ^investment<n><sg>$ ^and<cnjcoo>$ ^other<adj>$ ^expenditure<n><pl>$ ^should<vaux><inf>$ ^be<vbser><inf>$ ^minimise<vblex><pp>$^,<cm>$ ^the<det><def><sp>$ ^President<n><sg>$ ^highlight<vblex><past>$^.<sent>$
+^The<det><def><sp>$ ^head<n><sg>$ ^of<pr>$ ^state<n><sg>$ ^set<vblex><pp>$ ^a<det><ind><sg>$ ^number<n><sg>$ ^of<pr>$ ^task<n><pl>$ ^before<adv>$ ^the<det><def><sp>$ ^Government<n><sg>$ ^and<cnjcoo>$ ^the<det><def><sp>$ ^state<n><sg>$ ^authority<n><pl>$^.<sent>$
+^It<prn><subj><p3><nt><sg>$ ^be<vbser><pres><p3><sg>$ ^necessary<adj>$ ^to<pr>$ ^realise<vblex><inf>$ ^the<det><def><sp>$ ^Employment<n><sg>$ ^Strategy<n><sg>$ ^of<pr>$ ^the<det><def><sp>$ ^Person<n><pl>$ ^of<pr>$ ^Kazakhstan<np><top><sg>$^.<sent>$
+^The<det><def><sp>$ ^local<adj>$ ^budget<n><pl>$ ^will<vaux><inf>$ ^also<adv>$ ^*co$ ^finance<vblex><pres>$ ^the<det><def><sp>$ ^realisation<n><sg>$ ^of<pr>$ ^this<det><dem><sg>$ ^strategy<n><sg>$^.<sent>$
+^Meanwhile<adv>$ ^it<prn><subj><p3><nt><sg>$ ^be<vbser><pres><p3><sg>$ ^necessary<adj>$ ^to<pr>$ ^use<vblex><inf>$ ^the<det><def><sp>$ ^potential<n><sg>$ ^of<pr>$ ^local<n><sg>$ ^producer<n><pl>$^.<sent>$
+^It<prn><subj><p3><nt><sg>$ ^be<vbser><pres><p3><sg>$ ^necessary<adj>$ ^to<pr>$ ^extend<vblex><inf>$ ^social<adj>$ ^*workplaces$ ^and<cnjcoo>$ ^organise<vblex><pres>$ ^youth<n><sg>$ ^practice<vblex><pres>$^.<sent>$
+^In<pr>$ ^2008<num><year>$ ^more than<preadv>$ ^13<num>$ ^thousand<n><sg>$ ^person<n><pl>$ ^realise<vblex><past>$ ^their<det><pos><sp>$ ^opportunity<n><pl>$ ^under<adv>$ ^such<n><sg>$ ^program<vblex><pres><p3><sg>$^.<sent>$
+^This<det><dem><sg>$ ^be<vbser><pres><p3><sg>$ ^the<det><def><sp>$ ^sixth<det><ord><sp>$ ^visit<n><sg>$ ^to<pr>$ ^the<det><def><sp>$ ^United Kingdom<np><top><sg>$ ^by<pr>$ ^the<det><def><sp>$ ^President<n><sg>$ ^of<pr>$ ^Kazakhstan<np><top><sg>$^.<sent>$
+^It<prn><subj><p3><nt><sg>$ ^be<vbser><pres><p3><sg>$ ^necessary<adj>$ ^to<pr>$ ^take<vblex><inf>$ ^new<adj><sint>$ ^economic<adj>$ ^opportunity<n><pl>$^.<sent>$
+^It<prn><subj><p3><nt><sg>$ ^be<vbser><pres><p3><sg>$ ^a<det><ind><sg>$ ^good<adj><sint>$ ^time<n><sg>$ ^to<pr>$ ^launch<vblex><inf>$ ^new<adj><sint>$ ^project<n><pl>$^.<sent>$
+^Information<n><sg>$ ^on<adv>$ ^share<vblex><pp>$ ^construction<n><sg>$ ^market<n><sg>$ ^be<vbser><pres><p3><sg>$ ^not<adv>$ ^virtually<adv>$ ^available<adj>$ ^for<pr>$ ^the<det><def><sp>$ ^person<n><pl>$^.<sent>$
+^The<det><def><sp>$ ^regional<adj>$ ^fund<n><pl>$ ^be<vbser><pres>$ ^direct<vblex><pp>$ ^at<pr>$ ^the same<adv>$ ^purpose<n><pl>$^.<sent>$
+^Head<n><sg>$ ^of<pr>$ ^State<n><sg>$ ^Nursultan<np><ant><m><sg>$ ^*Nazarbaev$ ^arrive<vblex><pp>$ ^in<pr>$ ^Qatar<np><top><sg>$ ^for<pr>$ ^a<det><ind><sg>$ ^official<adj>$ ^visit<n><sg>$^.<sent>$
+^The<det><def><sp>$ ^economy<n><sg>$ ^of<pr>$ ^your<det><pos><sp>$ ^region<n><sg>$ ^be<vbser><pres><p3><sg>$ ^also<adv>$ ^grow<vblex><ger>$^.<sent>$
+^The<det><def><sp>$ ^housing<n><sg>$ ^build<vblex><ger>$ ^rate<vblex><pres><p3><sg>$ ^have<vbhaver><inf>$ ^increase<vblex><pp>$ ^by<pr>$ ^more than<preadv>$ ^four<num><sp>$ ^time<n><pl>$^.<sent>$
+^Four<num><sp>$ ^thousand<n><sg>$ ^family<n><pl>$ ^will<vaux><inf>$ ^obtain<vblex><inf>$ ^flat<n><pl>$ ^in<pr>$ ^this<det><dem><sg>$ ^*microdistrict$^.<sent>$
+^We<prn><subj><p1><mf><pl>$ ^have<vbhaver><pres>$ ^agree<vblex><pp>$ ^on<pr>$ ^several<det><ind><pl>$ ^issue<n><pl>$ ^of<pr>$ ^economic<adj>$ ^cooperation<n><sg>$^.<sent>$
+^Such<det><ind><sp>$ ^development<n><sg>$ ^of<pr>$ ^Kazakhstan<np><top><sg>$ ^be<vbser><pres><p3><sg>$ ^a<det><ind><sg>$ ^possibility<n><sg>$ ^to<pr>$ ^rise<n><sg>$ ^all<adj>$ ^country<n><pl>$ ^of<pr>$ ^the<det><def><sp>$ ^region<n><sg>$^.<sent>$
+^At<pr>$ ^the<det><def><sp>$ ^*conclusioan$ ^of<pr>$ ^negotiation<n><pl>$ ^a<det><ind><sg>$ ^joint<n><sg>$ ^*communique$ ^be<vbser><past><p3><sg>$ ^adopt<vblex><pp>$^.<sent>$
+^Germany<np><top><sg>$ ^be<vbser><pres><p3><sg>$ ^a<det><ind><sg>$ ^long<vblex><inf>$^-<guio>$^establish<vblex><pp>$ ^large<adj><sint><sup>$ ^economic<adj>$ ^partner<n><sg>$ ^of<pr>$ ^Kazakhstan<np><top><sg>$^.<sent>$^.<sent>$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
