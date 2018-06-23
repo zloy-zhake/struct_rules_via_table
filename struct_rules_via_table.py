@@ -34,23 +34,13 @@ def table_struct_transform(direction: str, source_morph: str) -> str:
         direction: str - направление преобразования (kaz-eng, eng-kaz)
         source_morph: str - морфологический разбор входного языка
     """
-
-    # определяем направление перевода
-    if direction == "kaz-eng":
-        source_table = kaz_tags
-        target_table = eng_tags
-
-    elif direction == "eng-kaz":
-        source_table = eng_tags
-        target_table = kaz_tags
-
-    # если направление перевода задано неверно, выбросить exception
-    else:
-        raise ValueError("Неправильно задано направление перевода")
-
     # определяем индекс морфологического разбора в таблице
     if source_morph in source_table:
         idx = source_table.index(source_morph)
+    # если индекс морфологического разбора отсутствует в таблице,
+    # вернуть <unknown_tags>
+    # нижнее подчеркивание обязательно, чтобы позже при split() это не стало
+    # 2 отдельными строками
     else:
         return "<unknown_tags>"
 
@@ -61,7 +51,7 @@ def table_struct_transform(direction: str, source_morph: str) -> str:
 def get_first_tag(tags: str) -> str:
     """
     Функция получает список тегов и возвращает первый из них.
-    <det><def><sp> -> <det>
+    пример: <det><def><sp> -> <det>
     """
     if tags == "<unknown_tags>":
         return None
@@ -83,11 +73,9 @@ def table_translate(direction: str, source_word: str) -> str:
     if direction == "kaz-eng":
         source_table = kaz
         target_table = eng
-
     elif direction == "eng-kaz":
         source_table = eng
         target_table = kaz
-
     # если направление перевода задано неверно, выбросить exception
     else:
         raise ValueError("Неправильно задано направление перевода")
@@ -98,6 +86,10 @@ def table_translate(direction: str, source_word: str) -> str:
         # возвращаем выходную основу слова, соответствующую индексу
         return target_table[idx]
     else:
+        # если индекс основы слова отсутствует в таблице,
+        # вернуть unknown_word
+        # нижнее подчеркивание обязательно, чтобы позже при split() это не
+        # стало 2 отдельными строками
         return "unknown_word"
 
 
@@ -108,9 +100,16 @@ def compare_tags(tag1: str, tag2: str) -> bool:
     <vbmod> - <v>
     <vbhaver> - <v>
     <vaux> - <vaux>
+    <vbser> - <vbser>
     """
-    if (tag1 == "<v>" or tag1 == "<vblex>" or tag1 == "<vbmod>" or tag1 == "<vbhaver>") \
-            and (tag2 == "<v>" or tag2 == "<vblex>" or tag2 == "<vbmod>" or tag2 == "<vbhaver>"):
+    if (tag1 == "<v>" or
+        tag1 == "<vblex>" or
+        tag1 == "<vbmod>" or
+        tag1 == "<vbhaver>") \
+            and (tag2 == "<v>" or
+                 tag2 == "<vblex>" or
+                 tag2 == "<vbmod>" or
+                 tag2 == "<vbhaver>"):
         return True
     elif tag1 == tag2:
         return True
@@ -121,7 +120,7 @@ def compare_tags(tag1: str, tag2: str) -> bool:
 # code
 # ==========
 
-
+# определяем направление перевода
 cur_direction = "eng-kaz"
 if cur_direction == "eng-kaz":
     source_table = eng_tags
@@ -129,23 +128,27 @@ if cur_direction == "eng-kaz":
 elif cur_direction == "kaz-eng":
     source_table = kaz_tags
     target_table = eng_tags
+# если направление перевода задано неверно, выбросить exception
+else:
+    raise ValueError("Неправильно задано направление перевода")
 
-
-# test = ["^you<prn><subj><p2><mf><sp>$ ^know<vblex><pres>$ ^that<det><dem><sg>$ \
-    # ^housing<n><sg>$ ^build<vblex><ger>$ ^have<vbhaver><pres><p3><sg>$ \
-    # ^become<vblex><pp>$ ^the<det><def><sp>$ ^drive<vblex><subs>$ \
-    # ^force<vblex><pres>$ ^of<pr>$ ^kazakhstan<np><top><sg>$ ^'s<gen>$ \
-    # ^economy<n><sg>$^.<sent>$"]
+# test = ["^you<prn><subj><p2><mf><sp>$ ^know<vblex><pres>$ \
+    # ^that<det><dem><sg>$  # ^housing<n><sg>$ ^build<vblex><ger>$
+    # ^have<vbhaver><pres><p3><sg>$ ^become<vblex><pp>$ ^the<det><def><sp>$ \
+    # ^drive<vblex><subs>$ ^force<vblex><pres>$ ^of<pr>$ \
+    # ^kazakhstan<np><top><sg>$ ^'s<gen>$ ^economy<n><sg>$^.<sent>$"]
 # for line in test:
 
+# Переменная для подсчета выводимых строк.
+# Должна была называться count, но что-то пошло не так.
 co = 0
 # из stdin получеам слова с морфологическими анализами
 for line in sys.stdin:
-    # разбиваем строку по символу '^'
+    # разбиваем строку по символу '^' (сам он при этом пропадает)
     splitted_input_str = line.split('^')
 
     source_words_with_tags = []
-    # убираем из входной строки пустые слова, знаки препинания и пробелы
+    # убираем из входной строки пустые слова, точки и пробелы
     for item in splitted_input_str:
         if item != "" and "sent" not in item:
             source_words_with_tags.append(item.strip())
@@ -157,6 +160,7 @@ for line in sys.stdin:
         # определяем, индекс символа, с которого начинаются теги
         if '<' in item:
             tag_idx = item.index('<')
+        # если тегов нет, не делать ничего
         else:
             continue
 
@@ -165,29 +169,36 @@ for line in sys.stdin:
 
     # определяем, границы групп тегов
     tag_borders = []
-    # tag_borders[0] = 0
     current_tag = 0
+    # последовательности тегов ищутся, начиная с самых длинных
+    # поиск идет по введённому предложению слева направо
+    # ближе к концу предложения длина последовательности тегов уменьшается
     while current_tag < len(source_tags):
         found = False
+        # уменьшаем длину последовательности тегов ближе к концу предложения
         if len(source_tags) - current_tag >= 6:
             max_len = 6
         else:
             max_len = len(source_tags) - current_tag
-
+        # ищем последовательности тегов, начиная с current_tag
+        # если что-то найдено, current_tag смещается вправо
         for tags_len in range(max_len, 0, -1):
-            if ' '.join(source_tags[current_tag: current_tag + tags_len]) in source_table:
+            if ' '.join(source_tags[current_tag:current_tag + tags_len]) in \
+                                                                source_table:
                 tag_borders.append(current_tag)
                 current_tag += tags_len
                 found = True
                 break
+        # если ничего не найдено, current_tag грустно вздыхает и смещается
+        # вправо на 1
         if not found:
             tag_borders.append(current_tag)
             current_tag += 1
-
+    # конец последовательности тегов тоже является границей
     tag_borders.append(len(source_tags))
 
     # группируем слова, исходные теги и целевые теги в одну структуру
-    # namedtupple - аналог struct
+    # namedtupple в python - аналог struct
     # words - source tags - target tags
     w_s_t = namedtuple(typename="w_s_t",
                        field_names=["words", "source_tags", "target_tags"])
@@ -201,11 +212,13 @@ for line in sys.stdin:
         # получаем теги на целевом языке
         tmp_target = table_struct_transform(direction=cur_direction,
                                             source_morph=tmp_source)
-        
+
+        # если основ слов окажется меньше, чем тегов для целевого языка,
+        # добавляем "экстра-слово"
         while len(tmp_words.split()) < len(tmp_target.split()):
             tmp_words += " extra_word"
 
-        # объединяем сгруппированное в структуру
+        # объединяем сгруппированное в одну структуру и добавляем её ы массив
         tmp_struct = w_s_t(words=tmp_words, source_tags=tmp_source,
                            target_tags=tmp_target)
         w_s_t_list.append(tmp_struct)
@@ -221,10 +234,13 @@ for line in sys.stdin:
     # <prn> <n>
     # ↓
     # сен<prn> кітаптарыңмен<n>
-
     for i in range(len(w_s_t_list)):
         tmp_words_list = w_s_t_list[i].words.split()
         tmp_target_list = w_s_t_list[i].target_tags.split()
+        # если количество основ слов и тегов целевого языка одинаково,
+        # то ничего делать не надо.
+        # а вот если слов больше - то надо делать то, что написано ниже
+        # ситуация, если слов меньше, решается выше добавлением "экстра-слова"
         if len(tmp_words_list) != len(tmp_target_list):
             tmp_source_list = w_s_t_list[i].source_tags.split()
             tmp_new_words_list = []
@@ -237,17 +253,23 @@ for line in sys.stdin:
                         tmp_new_words_list.append(tmp_words_list[idx])
                         break
 
-            w_s_t_list[i] = w_s_t_list[i]._replace(words=' '.join(tmp_new_words_list))
+            # кортежи в питоне немутабельны, поэтому просто изменить одно
+            # поле невозможно. надо переписывать/пересоздавать и заменять
+            # всю структуру/кортеж
+            w_s_t_list[i] = \
+                w_s_t_list[i]._replace(words=' '.join(tmp_new_words_list))
 
     # переводим слова
     for i in range(len(w_s_t_list)):
         tmp_words_list = w_s_t_list[i].words.split()
         tmp_translations = []
         for word in tmp_words_list:
-            tmp_tran = table_translate(direction=cur_direction, source_word=word)
+            tmp_tran = table_translate(direction=cur_direction,
+                                       source_word=word)
             tmp_translations.append(tmp_tran)
 
-        w_s_t_list[i] = w_s_t_list[i]._replace(words=' '.join(tmp_translations))
+        w_s_t_list[i] = \
+            w_s_t_list[i]._replace(words=' '.join(tmp_translations))
 
     # готовим результат для вывода
     output = ""
@@ -262,5 +284,7 @@ for line in sys.stdin:
     output = output.rstrip()
     output += '\n'
 
+    # Это та самая переменная для подсчета выводимых строк, которая
+    # должна была называться count, но что-то пошло не так.
     co += 1
     sys.stdout.write(str(co) + ": " + output)
