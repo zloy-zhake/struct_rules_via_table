@@ -60,8 +60,11 @@ def get_first_tag(tags: str) -> str:
     if tags == "<unknown_tags>":
         return None
 
-    idx = tags.index('>')
-    return tags[0:idx + 1]
+    if '>' in tags:
+        idx = tags.index('>')
+        return tags[0:idx + 1]
+    else:
+        return None
 
 
 def table_translate(direction: str, source_word: str) -> str:
@@ -159,7 +162,8 @@ else:
     raise ValueError("Неправильно задано направление перевода")
 
 # test = [
-    # "^Parsley<n><sg>$ ^be<vbser><pres><p3><sg>$ ^widely<adv>$ ^use<vblex><pp>$ ^in<pr>$ ^Middle<n><sg>$ ^Eastern<adj>$^,<cm>$ ^European<n><sg>$^,<cm>$ ^Brazilian<n><sg>$ ^and<cnjcoo>$ ^American<n><sg>$ ^cook<vblex><ger>$^.<sent>$ ^*Curly$ ^leaf<n><sg>$ ^parsley<n><sg>$ ^be<vbser><pres><p3><sg>$ ^use<vblex><pp>$ ^often<adv>$ ^as<pr>$ ^a<det><ind><sg>$ ^garnish<n><sg>$^.<sent>$ ^Green<adj><sint>$ ^parsley<n><sg>$ ^be<vbser><pres><p3><sg>$ ^use<vblex><pp>$ ^frequently<adv>$ ^as<pr>$ ^a<det><ind><sg>$ ^garnish<n><sg>$ ^on<pr>$ ^potato<n><sg>$ ^dish<n><pl>$ ^(<lpar>$^boil<vblex><pp>$ ^or<cnjcoo>$ ^*mashed$ ^potato<n><pl>$^)<rpar>$^,<cm>$ ^on<pr>$ ^rice<n><sg>$ ^dish<n><pl>$ ^(<lpar>$^*risotto$ ^or<cnjcoo>$ ^pilaf<n><sg>$^)<rpar>$^,<cm>$ ^on<pr>$ ^fish<n><pl>$^,<cm>$ ^fry<vblex><pp>$ ^chicken<n><sg>$^,<cm>$ ^lamb<n><sg>$^,<cm>$ ^goose<n><sg>$^,<cm>$ ^and<cnjcoo>$ ^steak<n><pl>$^,<cm>$ ^as well<adv>$ ^in<pr>$ ^meat<n><sg>$ ^or<cnjcoo>$ ^vegetable<n><sg>$ ^stew<n><pl>$ ^(<lpar>$^include<vblex><ger>$ ^shrimp<n><sg>$ ^creole<adj>$^,<cm>$ ^beef<n><sg>$ ^*bourguignon$^,<cm>$ ^*goulash$^,<cm>$ ^or<cnjcoo>$ ^chicken<n><sg>$ ^*paprikash$^)<rpar>$^.<sent>$"]
+    # "^Later<adv>$^,<cm>$ ^when<adv><itg>$ ^he<prn><subj><p3><m><sg>$ ^have<vblex><past>$ ^honed<adj>$ ^his<det><pos><sp>$ ^skill<n><pl>$^,<cm>$ ^he<prn><subj><p3><m><sg>$ ^become<vblex><past>$ ^a<det><ind><sg>$ ^"<sent>$^road<n><sg>$ ^*gambler$^"<sent>$^,<cm>$ ^a<det><ind><sg>$ ^travel<vblex><subs>$ ^*hustler$ ^who<prn><itg><m><sp>$ ^become<vblex><past>$ ^a<det><ind><sg>$ ^underground<adj>$ ^legend<n><sg>$ ^by<pr>$ ^win<vblex><ger>$ ^at<pr>$ ^all<adj>$ ^manner<n><sg>$ ^of<pr>$ ^proposition<n><pl>$^,<cm>$ ^many<prn><tn><mf><pl>$ ^of<pr>$ ^they<prn><obj><p3><mf><pl>$ ^tricky<adj><sint>$ ^if<cnjadv>$ ^not<adv>$ ^outright<adv>$ ^fraudulent<adj>$^.<sent>$ ^Among<pr>$ ^his<det><pos><sp>$ ^favourite<n><pl>$ ^be<vbser><past>$^:<sent>$ ^bet<vblex><ger>$ ^he<prn><subj><p3><m><sg>$ ^can<vaux><past>$ ^throw<vblex><inf>$ ^a<det><ind><sg>$ ^Walnut<n><sg>$ ^over<pr>$ ^a<det><ind><sg>$ ^building<n><sg>$ ^(<lpar>$^he<prn><subj><p3><m><sg>$ ^have<vbhaver><past>$ ^*weighted$ ^the<det><def><sp>$ ^hollowed<adj>$ ^shell<n><sg>$ ^with<pr>$ ^lead<vblex><pres>$ ^beforehand<adv>$^)<rpar>$^,<cm>$ ^throw<vblex><ger>$ ^a<det><ind><sg>$ ^large<adj><sint>$ ^room<n><sg>$ ^key<n><sg>$ ^into<pr>$ ^its<det><pos><sp>$ ^lock<n><sg>$^,<cm>$ ^and<cnjcoo>$ ^move<vblex><ger>$ ^a<det><ind><sg>$ ^road<n><sg>$ ^*mileage$ ^sign<vblex><pres>$ ^before<adv>$ ^bet<vblex><ger>$ ^that<prn><tn><mf><sg>$ ^the<det><def><sp>$ ^list<vblex><pp>$ ^distance<n><sg>$ ^to<pr>$ ^the<det><def><sp>$ ^town<n><sg>$ ^be<vbser><past><p3><sg>$ ^in<pr>$ ^error<n><sg>$^.<sent>$ ^He<prn><subj><p3><m><sg>$ ^once<adv>$ ^bet<vblex><pp>$ ^that<cnjsub>$ ^he<prn><subj><p3><m><sg>$ ^can<vaux><past>$ ^drive<vblex><inf>$ ^a<det><ind><sg>$ ^golf<n><sg>$ ^ball<n><sg>$ ^500<num>$ ^yard<n><pl>$^,<cm>$ ^use<vblex><ger>$ ^a<det><ind><sg>$ ^*hickory$^-<guio>$^*shafted$ ^club<n><sg>$^,<cm>$ ^at<pr>$ ^a<det><ind><sg>$ ^time<n><sg>$ ^when<adv><itg>$ ^a<det><ind><sg>$ ^expert<n><sg>$ ^player<n><sg>$ ^'s<gen>$ ^drive<vblex><inf>$ ^be<vbser><past><p3><sg>$ ^just<adv>$ ^over<pr>$ ^200<num>$ ^yard<n><pl>$^.<sent>$ ^He<prn><subj><p3><m><sg>$ ^win<vblex><past>$ ^by<pr>$ ^wait<vblex><ger>$ ^until<pr>$ ^winter<n><sg>$ ^and<cnjcoo>$ ^drive<vblex><ger>$ ^the<det><def><sp>$ ^ball<n><sg>$ ^onto<pr>$ ^a<det><ind><sg>$ ^freeze<vblex><pp>$ ^lake<n><sg>$^,<cm>$ ^where<adv><itg>$ ^it<prn><subj><p3><nt><sg>$ ^bounce<vblex><past>$ ^past<vblex><inf>$ ^the<det><def><sp>$ ^require<vblex><pp>$ ^distance<n><sg>$ ^on<pr>$ ^the<det><def><sp>$ ^ice<n><sg>$^.<sent>$"
+    # ]
 # for line in test:
 
 # Переменная для подсчета выводимых строк.
@@ -167,6 +171,11 @@ else:
 # co = 0
 # из stdin получеам слова с морфологическими анализами
 for line in sys.stdin:
+    #  Удаление кавычек ' и ". Может быть не нужно... Скорее всего не нужно.
+    if '\'' in line:
+        line = line.replace('\'', '')
+    if '\"' in line:
+        line = line.replace('\"', '')
     # разбиваем строку по символу '^' (сам он при этом пропадает)
     splitted_input_str = line.split('^')
 
