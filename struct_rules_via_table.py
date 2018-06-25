@@ -93,8 +93,13 @@ def table_translate(direction: str, source_word: str) -> str:
     # определяем индекс основы слова в таблице
     if source_word in source_dic:
         idx = source_dic.index(source_word)
-        # возвращаем выходную основу слова, соответствующую индексу
-        return target_dic[idx]
+        # находим выходную основу слова, соответствующую индексу
+        res = target_dic[idx]
+        # если найденная основа содержит пробелы, заменить их на '_'
+        # '_' будет заменено обратно на пробел при выводе
+        if ' ' in res:
+            res = res.replace(' ', '_')
+        return res
     else:
         # если индекс основы слова отсутствует в таблице,
         # вернуть unknown_word
@@ -132,10 +137,10 @@ def compare_tags(tag1: str, tag2: str) -> bool:
 
 
 # определяем направление перевода
-# cur_direction = "eng-kaz"
+cur_direction = "eng-kaz"
 # cur_direction = "kaz-eng"
 # cur_direction = "rus-kaz"
-cur_direction = "kaz-rus"
+# cur_direction = "kaz-rus"
 
 if cur_direction == "eng-kaz":
     source_table = eng_tags_4_eng_kaz
@@ -153,18 +158,15 @@ elif cur_direction == "kaz-rus":
 else:
     raise ValueError("Неправильно задано направление перевода")
 
-# test = ["^you<prn><subj><p2><mf><sp>$ ^know<vblex><pres>$ \
-    # ^that<det><dem><sg>$  # ^housing<n><sg>$ ^build<vblex><ger>$
-    # ^have<vbhaver><pres><p3><sg>$ ^become<vblex><pp>$ ^the<det><def><sp>$ \
-    # ^drive<vblex><subs>$ ^force<vblex><pres>$ ^of<pr>$ \
-    # ^kazakhstan<np><top><sg>$ ^'s<gen>$ ^economy<n><sg>$^.<sent>$"]
-# for line in test:
+test = [
+    "^Parsley<n><sg>$ ^be<vbser><pres><p3><sg>$ ^widely<adv>$ ^use<vblex><pp>$ ^in<pr>$ ^Middle<n><sg>$ ^Eastern<adj>$^,<cm>$ ^European<n><sg>$^,<cm>$ ^Brazilian<n><sg>$ ^and<cnjcoo>$ ^American<n><sg>$ ^cook<vblex><ger>$^.<sent>$ ^*Curly$ ^leaf<n><sg>$ ^parsley<n><sg>$ ^be<vbser><pres><p3><sg>$ ^use<vblex><pp>$ ^often<adv>$ ^as<pr>$ ^a<det><ind><sg>$ ^garnish<n><sg>$^.<sent>$ ^Green<adj><sint>$ ^parsley<n><sg>$ ^be<vbser><pres><p3><sg>$ ^use<vblex><pp>$ ^frequently<adv>$ ^as<pr>$ ^a<det><ind><sg>$ ^garnish<n><sg>$ ^on<pr>$ ^potato<n><sg>$ ^dish<n><pl>$ ^(<lpar>$^boil<vblex><pp>$ ^or<cnjcoo>$ ^*mashed$ ^potato<n><pl>$^)<rpar>$^,<cm>$ ^on<pr>$ ^rice<n><sg>$ ^dish<n><pl>$ ^(<lpar>$^*risotto$ ^or<cnjcoo>$ ^pilaf<n><sg>$^)<rpar>$^,<cm>$ ^on<pr>$ ^fish<n><pl>$^,<cm>$ ^fry<vblex><pp>$ ^chicken<n><sg>$^,<cm>$ ^lamb<n><sg>$^,<cm>$ ^goose<n><sg>$^,<cm>$ ^and<cnjcoo>$ ^steak<n><pl>$^,<cm>$ ^as well<adv>$ ^in<pr>$ ^meat<n><sg>$ ^or<cnjcoo>$ ^vegetable<n><sg>$ ^stew<n><pl>$ ^(<lpar>$^include<vblex><ger>$ ^shrimp<n><sg>$ ^creole<adj>$^,<cm>$ ^beef<n><sg>$ ^*bourguignon$^,<cm>$ ^*goulash$^,<cm>$ ^or<cnjcoo>$ ^chicken<n><sg>$ ^*paprikash$^)<rpar>$^.<sent>$"]
+for line in test:
 
 # Переменная для подсчета выводимых строк.
 # Должна была называться count, но что-то пошло не так.
 # co = 0
 # из stdin получеам слова с морфологическими анализами
-for line in sys.stdin:
+# for line in sys.stdin:
     # разбиваем строку по символу '^' (сам он при этом пропадает)
     splitted_input_str = line.split('^')
 
@@ -302,7 +304,11 @@ for line in sys.stdin:
             output += tmp_target_list[i]
             output += ' '
 
+    # убираем последний пробел, потому что некрасиво
     output = output.rstrip()
+    # если имеются '_', заменяем их на пробелы
+    if '_' in output:
+        output = output.replace('_', ' ')
     output += '\n'
 
     # Это та самая переменная для подсчета выводимых строк, которая
