@@ -130,8 +130,13 @@ def compare_tags(tag1: str, tag2: str) -> bool:
 # code
 # ==========
 
+
 # определяем направление перевода
-cur_direction = "eng-kaz"
+# cur_direction = "eng-kaz"
+# cur_direction = "kaz-eng"
+# cur_direction = "rus-kaz"
+cur_direction = "kaz-rus"
+
 if cur_direction == "eng-kaz":
     source_table = eng_tags_4_eng_kaz
     target_table = kaz_tags_4_eng_kaz
