@@ -22,7 +22,8 @@ from collections import namedtuple
 from tables_eng_kaz import kaz_tags_4_eng_kaz, eng_tags_4_eng_kaz
 from tables_kaz_rus import kaz_tags_4_kaz_rus, rus_tags_4_kaz_rus
 # импортируем таблицы словаря
-from eng_kaz_dic import eng, kaz
+from eng_kaz_dic import eng_4_eng_kaz, kaz_4_eng_kaz
+from kaz_rus_dic import kaz_4_kaz_rus, rus_4_kaz_rus
 
 # ==========
 # functions
@@ -74,26 +75,26 @@ def table_translate(direction: str, source_word: str) -> str:
 
     # определяем направление перевода
     if direction == "kaz-eng":
-        source_table = kaz
-        target_table = eng
+        source_dic = kaz_4_eng_kaz
+        target_dic = eng_4_eng_kaz
     elif direction == "eng-kaz":
-        source_table = eng
-        target_table = kaz
+        source_dic = eng_4_eng_kaz
+        target_dic = kaz_4_eng_kaz
     elif direction == "kaz-rus":
-        source_table = kaz
-        target_table = rus
+        source_dic = kaz_4_kaz_rus
+        target_dic = rus_4_kaz_rus
     elif direction == "rus-kaz":
-        source_table = rus
-        target_table = kaz
+        source_dic = rus_4_kaz_rus
+        target_dic = kaz_4_kaz_rus
     # если направление перевода задано неверно, выбросить exception
     else:
         raise ValueError("Неправильно задано направление перевода")
 
     # определяем индекс основы слова в таблице
-    if source_word in source_table:
-        idx = source_table.index(source_word)
+    if source_word in source_dic:
+        idx = source_dic.index(source_word)
         # возвращаем выходную основу слова, соответствующую индексу
-        return target_table[idx]
+        return target_dic[idx]
     else:
         # если индекс основы слова отсутствует в таблице,
         # вернуть unknown_word

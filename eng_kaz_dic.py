@@ -1,4 +1,4 @@
-eng = [
+eng_4_eng_kaz = [
 "go",
 "about",
 "about",
@@ -32870,7 +32870,7 @@ eng = [
 "humanity",
 "benevolence"]
 
-kaz = [
+kaz_4_eng_kaz = [
 "жүр",
 "туралы",
 "туралы",
