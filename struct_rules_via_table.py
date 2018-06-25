@@ -300,6 +300,7 @@ for line in test:
         tmp_words_list = item.words.split()
         tmp_target_list = item.target_tags.split()
         for i in range(len(tmp_words_list)):
+            output += '^'
             output += tmp_words_list[i]
             output += tmp_target_list[i]
             output += ' '
