@@ -3,7 +3,7 @@
 # eng_tags
 # Записи в них соответствуют друг другу
 
-kaz_tags = [
+kaz_tags_4_eng_kaz = [
     # kaz nouns
 
     "<n><nom>$",
@@ -407,7 +407,7 @@ kaz_tags = [
     "<v><tv><pass><aor><p3><sg>$"
 ]
 
-eng_tags = [
+eng_tags_4_eng_kaz = [
     # eng nouns
 
     "<det><def><sp>$ <n><sg>$",

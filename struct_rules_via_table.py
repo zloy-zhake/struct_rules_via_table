@@ -17,7 +17,10 @@ import sys
 from collections import namedtuple
 
 # импортируем таблицы структурных преобразований
-from tables import kaz_tags, eng_tags
+# TODO придумать, как сделать условное импортирование таблиц
+# TODO в зависимости от значения переменной direction
+from tables_eng_kaz import kaz_tags_4_eng_kaz, eng_tags_4_eng_kaz
+from tables_kaz_rus import kaz_tags_4_kaz_rus, rus_tags_4_kaz_rus
 # импортируем таблицы словаря
 from eng_kaz_dic import eng, kaz
 
@@ -129,17 +132,17 @@ def compare_tags(tag1: str, tag2: str) -> bool:
 # определяем направление перевода
 cur_direction = "eng-kaz"
 if cur_direction == "eng-kaz":
-    source_table = eng_tags
-    target_table = kaz_tags
+    source_table = eng_tags_4_eng_kaz
+    target_table = kaz_tags_4_eng_kaz
 elif cur_direction == "kaz-eng":
-    source_table = kaz_tags
-    target_table = eng_tags
+    source_table = kaz_tags_4_eng_kaz
+    target_table = eng_tags_4_eng_kaz
 elif cur_direction == "rus-kaz":
-    source_table = rus_tags
-    target_table = kaz_tags
+    source_table = rus_tags_4_kaz_rus
+    target_table = kaz_tags_4_kaz_rus
 elif cur_direction == "kaz-rus":
-    source_table = kaz_tags
-    target_table = rus_tags
+    source_table = kaz_tags_4_kaz_rus
+    target_table = rus_tags_4_kaz_rus
 # если направление перевода задано неверно, выбросить exception
 else:
     raise ValueError("Неправильно задано направление перевода")
