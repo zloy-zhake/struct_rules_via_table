@@ -218,7 +218,7 @@ for line in sys.stdin:
         while len(tmp_words.split()) < len(tmp_target.split()):
             tmp_words += " extra_word"
 
-        # объединяем сгруппированное в одну структуру и добавляем её ы массив
+        # объединяем сгруппированное в одну структуру и добавляем её в массив
         tmp_struct = w_s_t(words=tmp_words, source_tags=tmp_source,
                            target_tags=tmp_target)
         w_s_t_list.append(tmp_struct)
