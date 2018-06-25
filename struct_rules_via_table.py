@@ -76,6 +76,12 @@ def table_translate(direction: str, source_word: str) -> str:
     elif direction == "eng-kaz":
         source_table = eng
         target_table = kaz
+    elif direction == "kaz-rus":
+        source_table = kaz
+        target_table = rus
+    elif direction == "rus-kaz":
+        source_table = rus
+        target_table = kaz
     # если направление перевода задано неверно, выбросить exception
     else:
         raise ValueError("Неправильно задано направление перевода")
@@ -128,6 +134,12 @@ if cur_direction == "eng-kaz":
 elif cur_direction == "kaz-eng":
     source_table = kaz_tags
     target_table = eng_tags
+elif cur_direction == "rus-kaz":
+    source_table = rus_tags
+    target_table = kaz_tags
+elif cur_direction == "kaz-rus":
+    source_table = kaz_tags
+    target_table = rus_tags
 # если направление перевода задано неверно, выбросить exception
 else:
     raise ValueError("Неправильно задано направление перевода")
