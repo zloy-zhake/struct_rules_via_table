@@ -158,15 +158,15 @@ elif cur_direction == "kaz-rus":
 else:
     raise ValueError("Неправильно задано направление перевода")
 
-test = [
-    "^Parsley<n><sg>$ ^be<vbser><pres><p3><sg>$ ^widely<adv>$ ^use<vblex><pp>$ ^in<pr>$ ^Middle<n><sg>$ ^Eastern<adj>$^,<cm>$ ^European<n><sg>$^,<cm>$ ^Brazilian<n><sg>$ ^and<cnjcoo>$ ^American<n><sg>$ ^cook<vblex><ger>$^.<sent>$ ^*Curly$ ^leaf<n><sg>$ ^parsley<n><sg>$ ^be<vbser><pres><p3><sg>$ ^use<vblex><pp>$ ^often<adv>$ ^as<pr>$ ^a<det><ind><sg>$ ^garnish<n><sg>$^.<sent>$ ^Green<adj><sint>$ ^parsley<n><sg>$ ^be<vbser><pres><p3><sg>$ ^use<vblex><pp>$ ^frequently<adv>$ ^as<pr>$ ^a<det><ind><sg>$ ^garnish<n><sg>$ ^on<pr>$ ^potato<n><sg>$ ^dish<n><pl>$ ^(<lpar>$^boil<vblex><pp>$ ^or<cnjcoo>$ ^*mashed$ ^potato<n><pl>$^)<rpar>$^,<cm>$ ^on<pr>$ ^rice<n><sg>$ ^dish<n><pl>$ ^(<lpar>$^*risotto$ ^or<cnjcoo>$ ^pilaf<n><sg>$^)<rpar>$^,<cm>$ ^on<pr>$ ^fish<n><pl>$^,<cm>$ ^fry<vblex><pp>$ ^chicken<n><sg>$^,<cm>$ ^lamb<n><sg>$^,<cm>$ ^goose<n><sg>$^,<cm>$ ^and<cnjcoo>$ ^steak<n><pl>$^,<cm>$ ^as well<adv>$ ^in<pr>$ ^meat<n><sg>$ ^or<cnjcoo>$ ^vegetable<n><sg>$ ^stew<n><pl>$ ^(<lpar>$^include<vblex><ger>$ ^shrimp<n><sg>$ ^creole<adj>$^,<cm>$ ^beef<n><sg>$ ^*bourguignon$^,<cm>$ ^*goulash$^,<cm>$ ^or<cnjcoo>$ ^chicken<n><sg>$ ^*paprikash$^)<rpar>$^.<sent>$"]
-for line in test:
+# test = [
+    # "^Parsley<n><sg>$ ^be<vbser><pres><p3><sg>$ ^widely<adv>$ ^use<vblex><pp>$ ^in<pr>$ ^Middle<n><sg>$ ^Eastern<adj>$^,<cm>$ ^European<n><sg>$^,<cm>$ ^Brazilian<n><sg>$ ^and<cnjcoo>$ ^American<n><sg>$ ^cook<vblex><ger>$^.<sent>$ ^*Curly$ ^leaf<n><sg>$ ^parsley<n><sg>$ ^be<vbser><pres><p3><sg>$ ^use<vblex><pp>$ ^often<adv>$ ^as<pr>$ ^a<det><ind><sg>$ ^garnish<n><sg>$^.<sent>$ ^Green<adj><sint>$ ^parsley<n><sg>$ ^be<vbser><pres><p3><sg>$ ^use<vblex><pp>$ ^frequently<adv>$ ^as<pr>$ ^a<det><ind><sg>$ ^garnish<n><sg>$ ^on<pr>$ ^potato<n><sg>$ ^dish<n><pl>$ ^(<lpar>$^boil<vblex><pp>$ ^or<cnjcoo>$ ^*mashed$ ^potato<n><pl>$^)<rpar>$^,<cm>$ ^on<pr>$ ^rice<n><sg>$ ^dish<n><pl>$ ^(<lpar>$^*risotto$ ^or<cnjcoo>$ ^pilaf<n><sg>$^)<rpar>$^,<cm>$ ^on<pr>$ ^fish<n><pl>$^,<cm>$ ^fry<vblex><pp>$ ^chicken<n><sg>$^,<cm>$ ^lamb<n><sg>$^,<cm>$ ^goose<n><sg>$^,<cm>$ ^and<cnjcoo>$ ^steak<n><pl>$^,<cm>$ ^as well<adv>$ ^in<pr>$ ^meat<n><sg>$ ^or<cnjcoo>$ ^vegetable<n><sg>$ ^stew<n><pl>$ ^(<lpar>$^include<vblex><ger>$ ^shrimp<n><sg>$ ^creole<adj>$^,<cm>$ ^beef<n><sg>$ ^*bourguignon$^,<cm>$ ^*goulash$^,<cm>$ ^or<cnjcoo>$ ^chicken<n><sg>$ ^*paprikash$^)<rpar>$^.<sent>$"]
+# for line in test:
 
 # Переменная для подсчета выводимых строк.
 # Должна была называться count, но что-то пошло не так.
 # co = 0
 # из stdin получеам слова с морфологическими анализами
-# for line in sys.stdin:
+for line in sys.stdin:
     # разбиваем строку по символу '^' (сам он при этом пропадает)
     splitted_input_str = line.split('^')
 
